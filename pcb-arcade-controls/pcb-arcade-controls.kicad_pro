@@ -285,7 +285,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "V1.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -692,7 +692,7 @@
       {
         "filename": "pcb-arcade-controls.kicad_sch",
         "name": "pcb-arcade-controls",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "92054fa3-5ad0-458e-bd73-acbcf8d11243"
       }
     ],
     "used_designators": "",
@@ -701,7 +701,7 @@
   "sheets": [
     [
       "92054fa3-5ad0-458e-bd73-acbcf8d11243",
-      "Root"
+      "pcb-arcade-controls"
     ]
   ],
   "text_variables": {},
