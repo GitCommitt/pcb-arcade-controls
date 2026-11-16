@@ -14,7 +14,7 @@ In Kicad zijn we begonnen bij het maken van een nieuwe file met de template [lib
 # Meeting 6 november 2026
 - Externe power supply voor de led strip (omdat er anders dubbele volt op komt)
 
-- ADC onderzoek nog doen (verder afmaken), (datasheets induiken, qmk adc (link naar tbos) adc pins zijn data pins maar niet allemaal
+- ADC onderzoek nog doen (verder afmaken), (datasheets induiken, qmk adc (link naar tbos) adc pins zijn data pins maar niet allemaal)
 
 -   pa0 tot pa15 ADC pins (dubbelchecken) qmk adc link checken
 
