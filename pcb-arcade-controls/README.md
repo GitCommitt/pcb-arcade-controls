@@ -35,3 +35,15 @@ In Kicad zijn we begonnen bij het maken van een nieuwe file met de template [lib
 - Readme is voor alles
 
 - Presentatie maken maandag 16 nov (daarbij de debriefing, taakverdeling, planning)
+
+
+------
+
+
+## Sprint meeting 0
+
+Resultaat/feedback presentative:
+
+- Alles ziet er goed uit ivm connectoren etc
+- nu is het 0 punt en weten wat we moeten doen
+- letten op documentatie, alles documenteren al is het iets kleins/simpel
