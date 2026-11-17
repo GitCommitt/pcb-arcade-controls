@@ -1,9 +1,5 @@
 # README: pcb-arcade-controls
 
-## Onderzoek
-
-Bij het onderzoek zijn we begonnen met de PDF lezen en belangerijke dingen opslaan. We hebben aan het begin van dit process een [video](https://www.youtube.com/watch?v=8WXpGTIbxlQ) gekeken hoe we het software tool KiCad moeten gebruiken in combinatie met de STM32F072CBT6 Microprocessor.
-
 # Planning: 
 **Periode:** November 2026 t/m januari 2027
 
@@ -40,6 +36,10 @@ Bij het onderzoek zijn we begonnen met de PDF lezen en belangerijke dingen opsla
 * **Taken:** 
   * Polishen
   * CGI's
+    
+## Onderzoek
+
+Bij het onderzoek zijn we begonnen met de PDF lezen en belangerijke dingen opslaan. We hebben aan het begin van dit process een [video](https://www.youtube.com/watch?v=8WXpGTIbxlQ) gekeken hoe we het software tool KiCad moeten gebruiken in combinatie met de STM32F072CBT6 Microprocessor.
 
 ## Kicad
 
