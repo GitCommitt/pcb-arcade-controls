@@ -60,7 +60,7 @@ Er is een design ontworpen hoe het schema er op dit moment uit ziet ([Bekijk](ht
 
 Het schema is ook al verwerkt in een visuele printplaat ontwerp ([Bekijk](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-0/pcb.png)). OP dit onterwerp is te zien dat we 24 inputconnectoren gebruiken die we later gaan vervangen voor nieuwe connectors. Dat zijn de [JST-XH connectors](https://nl.rs-online.com/web/p/pcb-headers/8201554). Ook is er op de printplaat al nagedacht over hoe de printplaat gemonteerd kan worden aan een spelkast of ander iets. Hiervoor zijn 4 montagegaten van 10 mm gemaakt in de printplaat en worden waarschijnlijk later in het process smaller gemaakt zodat ze perfect bevestigd kunnen worden met een schroefjes. De processor, bootloaderknop en usb-c aansluiting zijn op dit ontwerp mogelijk op andere plekken dan ze op het eindproduct zouden zitten.
 
-We hebben een presentatie gemaakt die deze sprint samenvat in 5 dia's ([Bekijk](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-0/Presentatie%20sprint0.pptx)). Dit hebben we gepresenteerd en hebben we ook feedback op gekregen en verwerkt.
+We hebben een presentatie gemaakt die deze sprint samenvat in 5 dia's ([Bekijk](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-0/Presentatie%20sprint0.pptx)). Dit hebben we gepresenteerd en hebben we ook [feedback](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-0/Resultaatfeedback%20presentative.txt) op gekregen en verwerkt.
 
 ### Sprint 1
 ...
