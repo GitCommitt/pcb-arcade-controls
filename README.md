@@ -45,6 +45,9 @@ Bij het onderzoek zijn we begonnen met de PDF lezen en belangerijke dingen opsla
 
 In Kicad zijn we begonnen bij het maken van een nieuwe file met de template [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoModules/STM32F072CBT6) van de repo [Scottokeebs](https://github.com/joe-scotto/scottokeebs). Daarna hebben we voor het maken van een 3d model de [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoKicad/symbols) toegevoed aan onze preferences.
 
+## Connectie type
+
+We hebben voor de [JST-XH connectors](https://nl.rs-online.com/web/p/pcb-headers/8201554) gekozen als connectie type. We hebben deze keuze gemaakt aangezien deze type connector makkelijk is om te gebruiken en super gebruiksvriendelijk is. Ook was een reden dat we deze connectie type hebben gekozen dat deze connectors makkelijk op het bord passen en niet veel plek in beslag nemen op de printplaat. De andere connectie type die we als optie hadden waren de [Screw Terminals](https://www.amazon.nl/-/en/50pcs-Terminal-Connectors-Terminals-2-54mm/dp/B07BVF8MD1). Het voordeel bij deze connector was vooral dat hij universal is dus elke soort kabel kan gebruikt worden op deze connector. We hebben allene niet voor deze connector gekozen om de volgende redenen. De connectors nemen veel plek in beslag op de printplaat en  de connectors niet gebruiksvriendlijk aangezien je voor het veranderen van de kabel een schroevendraaier nodig heb. 
 
 # Process
 
