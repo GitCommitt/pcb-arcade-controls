@@ -49,6 +49,10 @@ In Kicad zijn we begonnen bij het maken van een nieuwe file met de template [lib
 
 We hebben voor de [JST-XH connectors](https://nl.rs-online.com/web/p/pcb-headers/8201554) gekozen als connectie type. We hebben deze keuze gemaakt aangezien deze type connector makkelijk is om te gebruiken en super gebruiksvriendelijk is. Ook was een reden dat we deze connectie type hebben gekozen dat deze connectors makkelijk op het bord passen en niet veel plek in beslag nemen op de printplaat. De andere connectie type die we als optie hadden waren de [Screw Terminals](https://www.amazon.nl/-/en/50pcs-Terminal-Connectors-Terminals-2-54mm/dp/B07BVF8MD1). Het voordeel bij deze connector was vooral dat hij universal is dus elke soort kabel kan gebruikt worden op deze connector. We hebben allene niet voor deze connector gekozen om de volgende redenen. De connectors nemen veel plek in beslag op de printplaat en  de connectors niet gebruiksvriendlijk aangezien je voor het veranderen van de kabel een schroevendraaier nodig heb. 
 
+## Matrix
+
+Wij gaan een matrix gebruiken in onze prinplaat ontwerp, aangezien dit super handig en overzichtelijk is van het gebruiken van de pins op de processor. De matrix houd in dat de data en ground pins van de connectors worden samengevoegd zogeheten een matrix. Hierdoor hebben we inplaats van 24 pins maar 10 pins nodig. De verhouding van de matrix is 4 x 6 dat zijn dus 4 rows en 6 columns. Hierdoor hebben wij dus meer mogelijkheden om andere dingen toe te voegen zoals een led strip of andere componenten.
+
 # Process
 
 We zijn begonnen als een team met het bedenken van een strak plan om dit project zo goed en het soepelst mogelijk kan laten verlopen. We zijn eerst begonnen met de verdeling van de taken. In de PCB ontwerp periode zijn de volgende taken verdeelt. Fynn, Nathan en Kevin hebben de taken gekregen van het PCB ontwerp te creeren en dan ook gelijk in Kicad te verwerken. Daan en Bram hebben de taak gekregen om te kijken wat de beste opties zijn voor het gebruik van de pins. Hiermee word bedoeld van welke pins op de processor gebruikt worden voor data zodat het knoppen en joysticks goed gaan comminuceren met de processor. 
