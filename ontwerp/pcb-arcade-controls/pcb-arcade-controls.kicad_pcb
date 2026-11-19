@@ -8,12 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "ScottoModules (STM32F072CBT6)")
-		(date "2024-07-13")
+		(title "PCB Arcade Controller")
+		(date "2026-11-19")
 		(rev "2.0.0")
-		(company "ScottoKeebs")
-		(comment 1 "GND filled zone should be on In1.Cu and In2.Cu on a 4 layer board.")
-		(comment 2 "GND can be used on F.Cu and B.Cu on a 2 layer board but not encouraged.")
+		(company "Nathan, Daan, Kevin, Fynn & Bram")
 	)
 	(layers
 		(0 "F.Cu" signal)
