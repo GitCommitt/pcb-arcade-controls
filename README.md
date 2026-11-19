@@ -51,7 +51,7 @@ We hebben voor de [JST-XH connectors](https://nl.rs-online.com/web/p/pcb-headers
 
 ## Matrix
 
-Wij gaan een matrix gebruiken in onze prinplaat ontwerp, aangezien dit super handig en overzichtelijk is van het gebruiken van de pins op de processor. De matrix houd in dat de data en ground pins van de connectors worden samengevoegd zogeheten een matrix. Hierdoor hebben we inplaats van 24 pins maar 10 pins nodig. De verhouding van de matrix is 4 x 6 dat zijn dus 4 rows en 6 columns. Hierdoor hebben wij dus meer mogelijkheden om andere dingen toe te voegen zoals een led strip of andere componenten.
+Wij gaan een matrix gebruiken in ons prinplaat ontwerp, aangezien dit super handig en overzichtelijk is voor het pin gebruik van de pins op de processor. De matrix houd in dat de data en ground pins van de connectors worden samengevoegd zogeheten een matrix. Hierdoor hebben we inplaats van 24 pins maar 10 pins nodig. De verhouding van de matrix is 4 x 6 dat zijn dus 4 rows en 6 columns. Hierdoor hebben wij dus meer mogelijkheden om andere dingen toe te voegen zoals een led strip of andere componenten.
 
 # Process
 
