@@ -45,6 +45,16 @@ Bij het onderzoek zijn we begonnen met de PDF lezen en belangerijke dingen opsla
 
 In Kicad zijn we begonnen bij het maken van een nieuwe file met de template [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoModules/STM32F072CBT6) van de repo [Scottokeebs](https://github.com/joe-scotto/scottokeebs). Daarna hebben we voor het maken van een 3d model de [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoKicad/symbols) toegevoed aan onze preferences.
 
+## Pin Layout
+
+- J1  (5-Pin JST-XH, P1_JOY):  Pin 1=D1(UP), Pin 2=D2(DN), Pin 3=D3(LT), Pin 4=D4(RT), Pin 5=ROW_0
+- J10 (5-Pin JST-XH, P2_JOY):  Pin 1=D13(UP), Pin 2=D14(DN), Pin 3=D15(LT), Pin 4=D16(RT), Pin 5=ROW_2
+- J2-J3 (2-Pin JST-XH):        Pin 1=Diode Anode (D5/D6),   Pin 2=ROW_0 (P1 Start / Coin 1)
+- J4-J9 (2-Pin JST-XH):        Pin 1=Diode Anode (D7-D12),  Pin 2=ROW_1 (P1 Buttons 1-6)
+- J11-J12 (2-Pin JST-XH):      Pin 1=Diode Anode (D17/D18), Pin 2=ROW_2 (P2 Start / Coin 2)
+- J13-J18 (2-Pin JST-XH):      Pin 1=Diode Anode (D19-D24), Pin 2=ROW_3 (P2 Buttons 1-6)
+- J19 (4-Pin JST-XH, SWD):     Pin 1=3.3V, Pin 2=PA13(SWDIO), Pin 3=PA14(SWCLK), Pin 4=GND
+
 # Connector type
 
 **PCB Connector**
