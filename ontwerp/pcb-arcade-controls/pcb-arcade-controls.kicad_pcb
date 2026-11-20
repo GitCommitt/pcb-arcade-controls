@@ -394,16 +394,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "315463d8-6328-4b64-a40a-c5d5a108491e")
-		(at 197.212446 122.235029)
+		(at 243.662446 119.160029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN15"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "6259fb81-db7a-4059-98f6-a2c45deabc86")
+			(uuid "d6dfb6e1-eb50-4e66-ac83-bcb8d233f073")
 			(effects
 				(font
 					(size 1 1)
@@ -414,7 +413,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "2b59e107-3cb6-4722-ad87-2df2ab549826")
+			(uuid "0c449dcd-ef02-4946-bb83-c481902e9646")
 			(effects
 				(font
 					(size 1 1)
@@ -426,7 +425,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8bd3dae-c196-46d9-8ee3-c13f9f29f42f")
+			(uuid "533089aa-9140-4eca-8e9f-e5b7b4a29bbe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,7 +436,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c54df486-02fa-4bae-831c-0771cf166cb5")
+			(uuid "930c3762-db83-4b7d-8229-ba7a840174a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,16 +624,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "326af07b-2bdd-4a1f-9a30-dcbcffcd2c38")
-		(at 197.212446 97.035029)
+		(at 243.662446 93.960029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN19"
 			(at -4.5 1.269999 0)
 			(layer "F.SilkS")
-			(uuid "560a95db-ece1-4df9-8a02-51a232e70ee8")
+			(uuid "60552da5-e2a1-4e09-ac3d-3b943fadee7f")
 			(effects
 				(font
 					(size 1 1)
@@ -645,7 +643,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "f0579a72-34c4-4586-b063-723122c8043b")
+			(uuid "a6ad58cc-98a8-4e62-acc1-374275957b02")
 			(effects
 				(font
 					(size 1 1)
@@ -657,7 +655,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70680542-1840-459e-8d2d-ac884153b4b4")
+			(uuid "ca4530dd-3ebe-4adb-b3d5-963518cfc88b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +666,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50304ad7-3ed9-4a01-9b4c-921ddf57c629")
+			(uuid "4070103b-0146-44c1-a63c-0a1bea3d3403")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,16 +854,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "3aba40bd-1d2e-4f98-b51b-beb89cf474bf")
-		(at 197.212446 128.535028)
+		(at 243.662446 125.460028)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN14"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "b00eab66-9df4-4b64-9ab7-a4c17c2bc527")
+			(uuid "33c6db23-7c4e-41ff-969f-c9ad18e393b0")
 			(effects
 				(font
 					(size 1 1)
@@ -876,7 +873,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "a4ab352e-b389-44df-ab95-f0a69d6f108d")
+			(uuid "92192c0e-305e-462e-a9c0-95426b0334eb")
 			(effects
 				(font
 					(size 1 1)
@@ -888,7 +885,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa97eaf7-820a-4bcc-8457-2be36022a48d")
+			(uuid "bfeb3c1f-2b1d-4721-8f83-662a159e65c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +896,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c35d0ff-1766-4bbe-b24b-cdc9b2faae47")
+			(uuid "72497370-9b52-4482-87f3-5c0223622b8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,16 +1084,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "3cfd263a-4776-425f-a996-c3eee9c5ab3e")
-		(at 197.212446 65.535028)
+		(at 243.662446 62.460029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN24"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "2ef783a6-d093-4970-b307-64e444a1f800")
+			(uuid "a21eb4b5-8f87-415e-8f6c-33e5b31014b9")
 			(effects
 				(font
 					(size 1 1)
@@ -1107,7 +1103,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "47ec5ec4-49af-4cdf-b512-f039702c4a51")
+			(uuid "da063573-5ec8-43cb-94c7-bb8f210ded93")
 			(effects
 				(font
 					(size 1 1)
@@ -1119,7 +1115,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "409ce668-704c-4adb-a97f-4c76d496c9b7")
+			(uuid "72868b4d-1813-4f04-86a2-213eeda29069")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1126,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d10c6f18-84ea-4832-96d2-66d331ac39ce")
+			(uuid "414bc6fa-ca88-497a-bfb5-f9834bef7365")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,16 +2238,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "63c64099-7a9d-4674-9a9f-5e85ea3ce8ae")
-		(at 197.212446 134.835029)
+		(at 243.662446 131.960029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN13"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "d310a295-deb9-4741-be9f-2f18dcaa144a")
+			(uuid "881fac97-1bbe-4762-b09a-5ad1aa029f31")
 			(effects
 				(font
 					(size 1 1)
@@ -2262,7 +2257,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "a15382bc-b6cf-452a-8b10-96bdd75e6fc4")
+			(uuid "d95829c2-9ece-43d4-8e6b-e89dd6674418")
 			(effects
 				(font
 					(size 1 1)
@@ -2274,7 +2269,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "627000f5-fd47-4b4a-9949-b63e010f9303")
+			(uuid "b575d732-7a39-41e5-8e57-532f703ba3f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2280,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f5260ba-a99e-4976-b44f-cdfd75273c62")
+			(uuid "0ead2726-6ebe-4acd-a23b-c2e8c86d6622")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2426,7 @@
 			(uuid "05a46567-fe97-415a-9bb9-85d186f695e6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 90)
+			(at 46.45 -1.805 90)
 			(layer "F.Fab")
 			(uuid "7337986b-ad40-4466-8590-4dc6ea09b279")
 			(effects
@@ -2473,16 +2468,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "63cbf6de-07b5-42b6-b38c-c9f5a64f3844")
-		(at 197.212446 109.635029)
+		(at 243.662446 106.560029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN17"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "820b2f96-8d4a-4fc2-bba5-8ba3af98ffc7")
+			(uuid "e5fce7a2-2718-47d1-86ac-90d658b5b177")
 			(effects
 				(font
 					(size 1 1)
@@ -2493,7 +2487,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "8b3626e9-1f21-49bd-9b8d-bc2e27b187cb")
+			(uuid "9303853e-685e-46ad-994c-916eb475fe2a")
 			(effects
 				(font
 					(size 1 1)
@@ -2505,7 +2499,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94795289-edfd-49c9-b5b0-08d40ea3e91e")
+			(uuid "67a9e411-3d7b-4dbf-9d33-80fef7dc5a5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2510,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d76e6b05-7129-45a5-a183-d24d41791fdd")
+			(uuid "c91e4dda-6e91-487f-9b02-67a84ae27b63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,16 +3479,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "a7db8e5c-2d6f-4547-baf1-f5309b7fd88f")
-		(at 197.212446 90.735029)
+		(at 243.662446 87.660029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN20"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "5b43eec4-6d7f-480b-91e6-6f1f75f6f14a")
+			(uuid "17be79d2-aa46-4929-881b-cac745083920")
 			(effects
 				(font
 					(size 1 1)
@@ -3505,7 +3498,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "a140f7b1-ad8f-4509-8672-a76483b5a340")
+			(uuid "7e323f92-586f-43d3-8210-2a82dbb3bb6d")
 			(effects
 				(font
 					(size 1 1)
@@ -3517,7 +3510,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4b62a25-8b4f-4e53-822d-d57b7868d1e1")
+			(uuid "e573e738-fa08-49d5-b3d7-d95a9e3d4ecb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3521,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6de7e02c-3e8a-455b-bedf-9f3c79433539")
+			(uuid "10749d54-cfc3-4288-8d06-781d6ec3a2e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3719,7 @@
 			(at 0 -6.25 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7ba21487-96a8-4cd2-8561-aad63c7ac13b")
+			(uuid "5516f6e3-0464-4fea-8e0a-f4126faa2c4e")
 			(effects
 				(font
 					(size 1 1)
@@ -3737,7 +3730,7 @@
 		(property "Value" "10mm"
 			(at 0 6.25 0)
 			(layer "F.Fab")
-			(uuid "5104cff3-9930-4d5c-aa21-912eb9587e1a")
+			(uuid "198c9603-2cf3-4903-b224-629f060b69b8")
 			(effects
 				(font
 					(size 1 1)
@@ -3749,7 +3742,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b4e7aa8-5b17-4eec-9bf9-39ddfa6c236b")
+			(uuid "1bbce038-f8a3-4610-b710-b39c023f756c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3753,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58c4bc83-de0f-42d8-bdee-8bbaf7637e70")
+			(uuid "30192176-7955-4e0a-a1b6-d3c9d5a9698e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,16 +3797,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "b5dcf44c-5756-4689-b780-6763d8fea800")
-		(at 197.212446 103.335029)
+		(at 243.662446 100.260029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN18"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "697bb2c8-7215-4737-a0ba-dcfd90d1b1c8")
+			(uuid "419e8012-023c-45d5-a836-615022822061")
 			(effects
 				(font
 					(size 1 1)
@@ -3824,7 +3816,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "75aceec7-ab21-4b87-a7e2-7d472fa9c0fc")
+			(uuid "1d2dfd38-d504-459f-9edf-683c67a27d10")
 			(effects
 				(font
 					(size 1 1)
@@ -3836,7 +3828,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "177c07bd-1d53-44e6-ba35-41cd4c350176")
+			(uuid "93c3ffde-bc3f-4706-bb78-80ed7fc917d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3839,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3809887c-d29f-4ed4-ad4c-2d2a14ef59c4")
+			(uuid "ab13958e-7375-4fee-9312-b92d26104318")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,16 +4027,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "b6d1fceb-d1f2-4be0-9a2a-d42611d5c3c6")
-		(at 197.212446 115.935029)
+		(at 243.662446 112.860029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN16"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "cec86d5b-49d3-460a-bf46-5e015b849bfb")
+			(uuid "f85ee03e-2cae-4649-b700-e1ff641eb168")
 			(effects
 				(font
 					(size 1 1)
@@ -4055,7 +4046,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "acc795a8-b1bf-4fe1-a8a7-f1046e93dbda")
+			(uuid "b47730fa-20b7-4eaa-b406-5bc65288fec8")
 			(effects
 				(font
 					(size 1 1)
@@ -4067,7 +4058,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4ec7025-2d48-48af-8a6c-82ec38e445ef")
+			(uuid "6c80f9ee-8475-4172-afb7-3d9ff505541e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4069,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2f67bec-6f28-4477-8d2a-aaf38d0ea61c")
+			(uuid "6575e25b-08bf-44e1-90a2-6e58bd88d387")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,16 +4257,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "be88a172-b5d7-45a2-9e81-429a85197fdc")
-		(at 197.212446 71.835029)
+		(at 243.662446 68.760029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN23"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "2a6b89c1-6834-4490-b4e0-e13de57976ee")
+			(uuid "23a3b8aa-fffe-4a16-aad7-2cfdf403c456")
 			(effects
 				(font
 					(size 1 1)
@@ -4286,7 +4276,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "a63cf5fa-6841-4857-8df8-4313e07f2b8f")
+			(uuid "e128958e-a091-4ee2-9f73-5130a7efcc03")
 			(effects
 				(font
 					(size 1 1)
@@ -4298,7 +4288,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e76fd85-22dc-4ec6-995e-1db43a15e243")
+			(uuid "406b05b3-1545-400f-9abf-37be964c2d3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4299,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a46e9eb1-d980-4a2c-b2a4-941eab8f8e08")
+			(uuid "3805bd10-749b-46b2-af3f-82e7fea7414a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,16 +4487,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "c5188c00-84f6-4b6d-81a4-b72586877163")
-		(at 197.212446 84.435029)
+		(at 243.662446 81.360029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN21"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "9ca72739-04b2-48c2-aad0-83ff1186849c")
+			(uuid "2115149d-afa2-4a49-81c2-fcc0369b49b4")
 			(effects
 				(font
 					(size 1 1)
@@ -4517,7 +4506,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "84926d83-d507-4d2e-a04c-09c6ae325062")
+			(uuid "70f9f4e3-3397-4ff7-a767-ce9951aeb95c")
 			(effects
 				(font
 					(size 1 1)
@@ -4529,7 +4518,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17f68779-421a-4567-a91c-2cab8ccf4f7f")
+			(uuid "436e782e-9f08-4552-a3d2-c89212df1ae9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4529,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc947aa9-7073-42cb-8190-a4db487aee03")
+			(uuid "6a8c1b51-424f-45e9-aca7-6d0902b84422")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,16 +5641,15 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "e476c8be-262a-4b43-a96a-014f7f325774")
-		(at 197.212446 78.135029)
+		(at 243.662446 75.060029)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "IN22"
 			(at -4.5 1.27 0)
 			(layer "F.SilkS")
-			(uuid "75cb293c-6b03-452b-96a0-507fa05354f3")
+			(uuid "3f160b47-459a-4c06-b60f-fc7137ac55ce")
 			(effects
 				(font
 					(size 1 1)
@@ -5672,7 +5660,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "1149613a-2521-4c87-8160-c10ed1ec6bd5")
+			(uuid "64fce6f6-d2a4-4ca0-86cf-d6aa5e667d21")
 			(effects
 				(font
 					(size 1 1)
@@ -5684,7 +5672,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f9ea013-9ff6-4505-9dd3-6a7f9bfb1032")
+			(uuid "eed1e5a3-182d-45bf-9c7b-74f3ab9039bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5683,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "362d6bc7-6b01-4866-ad66-e9252bdd52b2")
+			(uuid "006461e3-76de-495d-ac78-6c993586482a")
 			(effects
 				(font
 					(size 1.27 1.27)
