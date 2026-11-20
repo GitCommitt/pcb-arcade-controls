@@ -1247,7 +1247,6 @@
 		)
 	)
 	(footprint "arcade-controls:MountingHole_10mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "114d684a-d8e2-4be8-b234-0bc9c2da78ae")
 		(at 105.662446 144.735029)
@@ -1613,7 +1612,6 @@
 		)
 	)
 	(footprint "arcade-controls:MountingHole_10mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "2f1d3861-8a78-4a53-8b7c-11485f06982c")
 		(at 105.662446 55.735029)
@@ -8492,7 +8490,6 @@
 		)
 	)
 	(footprint "arcade-controls:MountingHole_10mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "69c632f9-24cc-45ce-9e25-851d5f365893")
 		(at 194.662446 55.235029)
@@ -8654,7 +8651,9 @@
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
 			(stroke
-			(fill no)
+				(width 0.12)
+				(type solid)
+			)
 			(layer "F.SilkS")
 			(uuid "b4b38cbe-fe60-4e90-840a-a99708432c61")
 		)
@@ -11667,7 +11666,6 @@
 			(type default)
 		)
 		(fill no)
-		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "e82a2d81-9090-45f8-8a6c-9f0b98d9faae")
 	)
@@ -11682,6 +11680,169 @@
 			)
 		)
 	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 137.662446 135.310029 0)
+		(layer "F.Fab")
+		(uuid "05ece120-f136-4634-9a99-78124e8d2c9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 145.662446 121.860029 0)
+		(layer "F.Fab")
+		(uuid "ca8c0a9f-baab-4b4a-9a3c-b96dc144c969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 145.662446 128.860029 0)
+		(layer "F.Fab")
+		(uuid "3e8d927b-f6a5-414e-b819-4ad0fd660d3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 145.662446 135.360029 0)
+		(layer "F.Fab")
+		(uuid "27aa2eb2-269e-4aa6-b459-1bec3ab5af22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 145.912446 135.360029 0)
+		(layer "F.Fab")
+		(uuid "45bdecaa-f0b3-4894-913a-351e531f9281")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 145.912446 141.860029 0)
+		(layer "F.Fab")
+		(uuid "c43deb02-e96e-42a4-bed5-12245a4138c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 146.412446 135.335029 0)
+		(layer "F.Fab")
+		(uuid "2a70dad6-a902-45a7-8ba3-75e8058f6cb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 154.412446 121.835029 0)
+		(layer "F.Fab")
+		(uuid "9baec7b9-f7df-4df3-aaa2-92249fa93dd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 154.412446 128.835029 0)
+		(layer "F.Fab")
+		(uuid "060941df-2d9b-4d31-9a05-a53da2b15c27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 154.412446 135.335029 0)
+		(layer "F.Fab")
+		(uuid "393aa5cf-be91-4351-927b-f45b3a894166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 154.662446 135.335029 0)
+		(layer "F.Fab")
+		(uuid "562483f5-14a4-4564-886c-8f1764cb3af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 154.662446 141.835029 0)
+		(layer "F.Fab")
+		(uuid "4a9c30ee-4eff-4602-a08c-e55be36b7667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 155.162446 135.310029 0)
+		(layer "F.Fab")
+		(uuid "b5addb1f-bced-4914-a6b0-07e39aa0eb09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 163.162446 135.360029 0)
+		(layer "F.Fab")
+		(uuid "11379838-1a1a-4385-a35e-2d4dcb15f921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(at 171.912446 135.335029 0)
+		(layer "F.Fab")
+		(uuid "bd36c362-1a9b-4da3-b004-ce9d034c7092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(embedded_fonts no)
