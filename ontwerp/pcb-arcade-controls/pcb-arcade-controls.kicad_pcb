@@ -1709,7 +1709,7 @@
 		(layer "F.Cu")
 		(uuid "33fb23b1-ce6e-4239-9987-fca45e160c58")
 		(at 174.162446 96.235029)
-		(property "Reference" "Marin"
+		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "a58d71e4-0154-44f2-bb8b-2eaff1229f5a")
