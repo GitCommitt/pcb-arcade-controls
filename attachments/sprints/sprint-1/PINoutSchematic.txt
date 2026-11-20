@@ -1,0 +1,82 @@
+====================================================================================================
+  STM32F072CBT6 (LQFP48) - PLUG-AND-PLAY JST-XH ARCADE KEYBOARD ENCODER (4x6 ADC MATRIX)
+====================================================================================================
+
+                         3.3V
+                          │
+            ┌──────┬──────┼──────┬──────┬──────┐
+            │      │      │      │      │      │
+          [10k]  [10k]  [10k]  [10k]  [10k]  [10k]   <-- External Pull-Ups (Required for ADC mode)
+            │      │      │      │      │      │
+            ├──────┼──────┼──────┼──────┼──────┼──────────────────────────────┐
+            │      │      │      │      │      │                              │
+            ▼      ▼      ▼      ▼      ▼      ▼                              │
+          (10)   (11)   (12)   (13)   (14)   (15)                             │
+         ┌────────────────────────────────────────┐                           │
+         │ PA0    PA1    PA2    PA3    PA4    PA5 │                           │
+         │ IN0    IN1    IN2    IN3    IN4    IN5 │  6x ADC Sense Columns     │
+         │                                        │                           │
+         │                                    PA6 ├───(16)──► ROW_0 (P1 Joy + Start/Coin)
+         │                                    PA7 ├───(17)──► ROW_1 (P1 Buttons 1-6)
+  3.3V ──┼─(9) VDDA [+100nF & 1uF to GND]     PA8 ├───(29)──► ROW_2 (P2 Joy + Start/Coin)
+   GND ──┼─(8) VSSA                           PA9 ├───(30)──► ROW_3 (P2 Buttons 1-6)
+         │                                        │                           │
+         │          STM32F072CBT6                 │                           │
+         │            (LQFP-48)               PB0 ├───(18)──► [330R]──►|──► GND (Profile LED)
+         │                                        │                           │
+         │                                  BOOT0 ├───(44)──┬──[10k]──► GND   │
+         │                                        │         └──[DFU BTN]──► 3.3V
+         │                                        │                           │
+         │ SWDIO  SWCLK            USB_DM  USB_DP │                           │
+         └─(34)───(37)──────────────(32)────(33)──┘                           │
+            │      │                 │       │                                │
+            ▼      ▼                 ▼       ▼                                │
+     [J19: 4-Pin JST-XH]         [USBLC6-2SC6 ESD]                            │
+     1:3V3 2:DIO 3:CLK 4:GND         │       │                                │
+                                     ▼       ▼                                │
+                                  [USB-C / USB-B]  (Add 5.1k CC1/CC2 to GND if USB-C)
+
+====================================================================================================
+  JST-XH CONNECTOR ROUTING (ALL 24 1N4148W DIODES ON PCB — STRIPE ALWAYS FACES ROW_x)
+====================================================================================================
+
+          COL_0    COL_1    COL_2    COL_3    COL_4    COL_5
+          (PA0)    (PA1)    (PA2)    (PA3)    (PA4)    (PA5)
+            │        │        │        │        │        │
+  ROW_0 ────┼─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐   (D1-D6: Stripe -> ROW_0)
+  (PA6)     │     │  │     │  │     │  │     │  │     │  │     │
+            │  ┌──┴──┴─────┴──┴──┐   │        │    [J2]     [J3]   <-- 2-Pin JST-XH (B2B-XH-A)
+            │  │ 1   2   3   4  5│   │        │   P1_ST    P1_CN       Pin1=Anode, Pin2=ROW_0
+            │  │UP  DN  LT  RT CM│◄──┼────────┘
+            │  └─────────────────┘   │
+            │   [J1: 5-Pin JST-XH]   │   (Pin 5 COM = ROW_0; matches Sanwa 5-pin cable)
+            │        │        │      │        │        │
+  ROW_1 ────┼─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐   (D7-D12: Stripe -> ROW_1)
+  (PA7)     │     │  │     │  │     │  │     │  │     │  │     │
+            │   [J4]     [J5]     [J6]     [J7]     [J8]     [J9]  <-- 6x 2-Pin JST-XH (B2B-XH-A)
+            │  P1_B1    P1_B2    P1_B3    P1_B4    P1_B5    P1_B6      Pin1=Anode, Pin2=ROW_1
+            │        │        │        │        │        │
+  ROW_2 ────┼─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐   (D13-D18: Stripe -> ROW_2)
+  (PA8)     │     │  │     │  │     │  │     │  │     │  │     │
+            │  ┌──┴──┴─────┴──┴──┐   │        │   [J11]    [J12]   <-- 2-Pin JST-XH (B2B-XH-A)
+            │  │ 1   2   3   4  5│   │        │   P2_ST    P2_CN       Pin1=Anode, Pin2=ROW_2
+            │  │UP  DN  LT  RT CM│◄──┼────────┘
+            │  └─────────────────┘   │
+            │  [J10: 5-Pin JST-XH]   │   (Pin 5 COM = ROW_2; matches Sanwa 5-pin cable)
+            │        │        │      │        │        │
+  ROW_3 ────┼─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐  ├─|<|─┐   (D19-D24: Stripe -> ROW_3)
+  (PA9)     │     │  │     │  │     │  │     │  │     │  │     │
+            │  [J13]    [J14]    [J15]    [J16]    [J17]    [J18]  <-- 6x 2-Pin JST-XH (B2B-XH-A)
+            │  P2_B1    P2_B2    P2_B3    P2_B4    P2_B5    P2_B6      Pin1=Anode, Pin2=ROW_3
+
+====================================================================================================
+  JST-XH SILKSCREEN & PINOUT SUMMARY FOR PCB DESIGNER
+====================================================================================================
+  * J1  (5-Pin JST-XH, P1_JOY):  Pin 1=D1(UP), Pin 2=D2(DN), Pin 3=D3(LT), Pin 4=D4(RT), Pin 5=ROW_0
+  * J10 (5-Pin JST-XH, P2_JOY):  Pin 1=D13(UP),Pin 2=D14(DN),Pin 3=D15(LT),Pin 4=D16(RT),Pin 5=ROW_2
+  * J2-J3 (2-Pin JST-XH):        Pin 1=Diode Anode (D5/D6),   Pin 2=ROW_0 (P1 Start / Coin 1)
+  * J4-J9 (2-Pin JST-XH):        Pin 1=Diode Anode (D7-D12),  Pin 2=ROW_1 (P1 Buttons 1-6)
+  * J11-J12 (2-Pin JST-XH):      Pin 1=Diode Anode (D17/D18), Pin 2=ROW_2 (P2 Start / Coin 2)
+  * J13-J18 (2-Pin JST-XH):      Pin 1=Diode Anode (D19-D24), Pin 2=ROW_3 (P2 Buttons 1-6)
+  * J19 (4-Pin JST-XH, SWD):     Pin 1=3.3V, Pin 2=PA13(SWDIO), Pin 3=PA14(SWCLK), Pin 4=GND
+====================================================================================================
