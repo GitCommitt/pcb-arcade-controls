@@ -1,4 +1,4 @@
-<img width="1131" height="386" alt="image" src="https://github.com/user-attachments/assets/fd327592-ee68-489a-9663-af1c5b11ca86" /># README: pcb-arcade-controls
+README: pcb-arcade-controls
 
 # Planning: 
 **Periode:** November 2026 t/m januari 2027
