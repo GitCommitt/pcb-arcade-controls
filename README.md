@@ -81,3 +81,5 @@ We hebben een presentatie gemaakt die deze sprint samenvat in 5 dia's ([Bekijk](
 We zijn begonnen met het onderzoeken van hoe we samen in 1 KiCad bestand kunnen werken zonder dat het elkaar constant over overschrijven. Dit hebben we onderzocht en kwamen op een stappenlijst uit. We hebben het volgende gedaan om dit probleem op te lossen. We hebben in KiCad de voorkeuren git versie beheer ingeschakeld. Hierdoor overschrijven de bestanden niet meer waardoor we nu met meerdere personen aan 1 bestand kunnen werken.
 
 We hebben ook het onderzoek gestart naar het kijken welke ADC connecties we kunnen gebruiken van de processor voor de data en de ground connecties van de buttons. 
+
+Het PCB ontwerp en de schematic worden nu aangepast en worden de temporary pins die nu gebruikt worden door de buttons opnieuw aan een pin gezet.
