@@ -1,0 +1,23 @@
+- Externe power supply voor de led strip (omdat er anders dubbele volt op komt)
+
+- ADC onderzoek nog doen (verder afmaken), (datasheets induiken, qmk adc (link naar tbos) adc pins zijn data pins maar niet allemaal
+
+-   pa0 tot pa15 ADC pins (dubbelchecken) qmk adc link checken
+
+- page 35 datasheet (lscs.com/datasheet/C91720.pdf)
+
+- form factor is LQFP48 
+
+- ADC kan je het analog uitlezen
+
+- op de sheet kijken welke pin werken
+
+- niet naar de grotere versies kijken
+
+- goed kijken welke ze hebben en welke je kan aansluiten (bij de datasheet)
+
+- Eerst ADC pins klaar zetten en dan pas de rest
+
+- Readme is voor alles
+
+- Presentatie maken maandag 16 nov (daarbij de debriefing, taakverdeling, planning
