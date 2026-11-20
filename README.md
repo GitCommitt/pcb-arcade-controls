@@ -1,4 +1,4 @@
-# README: pcb-arcade-controls
+<img width="1131" height="386" alt="image" src="https://github.com/user-attachments/assets/fd327592-ee68-489a-9663-af1c5b11ca86" /># README: pcb-arcade-controls
 
 # Planning: 
 **Periode:** November 2026 t/m januari 2027
@@ -45,13 +45,19 @@ Bij het onderzoek zijn we begonnen met de PDF lezen en belangerijke dingen opsla
 
 In Kicad zijn we begonnen bij het maken van een nieuwe file met de template [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoModules/STM32F072CBT6) van de repo [Scottokeebs](https://github.com/joe-scotto/scottokeebs). Daarna hebben we voor het maken van een 3d model de [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoKicad/symbols) toegevoed aan onze preferences.
 
-## Connector type
+# Connector type
 
-# PCB Connector
-We hebben voor de [JST-XH connectors](https://nl.rs-online.com/web/p/pcb-headers/8201554) gekozen als connectie type. We hebben deze keuze gemaakt aangezien deze type connector makkelijk is om te gebruiken en super gebruiksvriendelijk is. Ook was een reden dat we deze connectie type hebben gekozen dat deze connectors makkelijk op het bord passen en niet veel plek in beslag nemen op de printplaat. De andere connectie type die we als optie hadden waren de [Screw Terminals](https://www.amazon.nl/-/en/50pcs-Terminal-Connectors-Terminals-2-54mm/dp/B07BVF8MD1). Het voordeel bij deze connector was vooral dat hij universal is dus elke soort kabel kan gebruikt worden op deze connector. We hebben alleen niet voor deze connector gekozen om de volgende redenen. De connectors nemen veel plek in beslag op de printplaat en  de connectors niet gebruiksvriendlijk aangezien je voor het veranderen van de kabel een schroevendraaier nodig heb. 
+**PCB Connector**
 
-# Wire Connector
-...
+We hebben voor de [JST-XH Female](https://nl.rs-online.com/web/p/pcb-headers/8201554) connectors gekozen als connectie type. We hebben deze keuze gemaakt aangezien deze type connector makkelijk is om te gebruiken en super gebruiksvriendelijk is. Ook was een reden dat we deze connectie type hebben gekozen dat deze connectors makkelijk op het bord passen en niet veel plek in beslag nemen op de printplaat. De andere connectie type die we als optie hadden waren de [Screw Terminals](https://www.amazon.nl/-/en/50pcs-Terminal-Connectors-Terminals-2-54mm/dp/B07BVF8MD1). Het voordeel bij deze connector was vooral dat hij universal is dus elke soort kabel kan gebruikt worden op deze connector. We hebben alleen niet voor deze connector gekozen om de volgende redenen. De connectors nemen veel plek in beslag op de printplaat en  de connectors niet gebruiksvriendlijk aangezien je voor het veranderen van de kabel een schroevendraaier nodig heb. 
+
+**Kabel Connector**
+
+We gaan voor de kabel connectors aan de pcb kant de [JST XH-2 Male](https://www.electrokit.com/en/batterisladd-jst-xh-2-pol-300mm) connectors gebruiken. Deze connectors passen perfect in de female connectors van de pcb. Als deze twee connectors zijn gekoppeld zijn ze moeilijk uit te halen en zullen ze dus niet uitvallen tijdens het gebruik. 
+
+Aan de ardcade button kant van de kabel gaan we de [Quick-Connect](https://www.arcadewinkel.nl/en/wiring-connectors/connectors/quick-connector-2-8mm-110-inch-crimp-model-10pcs) connectors gebruiken aangezien deze makkelijk hot swapable zijn met de arcade buttons en dus ook heel gebruiksvriendelijk zijn voor de gebruikers als er word gewisseld van buttons.
+
+De kabel die het uiteindelijk gaan worden zijn de [JST XH male / Quick-Connect Wires](https://www.amazon.nl/SJ-JX-Connectors-Controller-Accessories/dp/B08C2CLMJ5?th=1). Dit omdat deze het beste bij onze keuzes het beste passen en gaan werken in ons ontwerp.
 
 ## Matrix
 
