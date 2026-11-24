@@ -4181,18 +4181,6 @@
 		(uuid "9e6a39c1-89b6-4813-9896-be40f87348b5")
 	)
 	(rectangle
-		(start 283.21 128.27)
-		(end 401.32 182.88)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9eb69ec1-a7c8-4df6-baf8-7b4b1668cab4")
-	)
-	(rectangle
 		(start 126.492 34.544)
 		(end 401.574 182.88)
 		(stroke
@@ -6440,7 +6428,7 @@
 	)
 	(global_label "P2_BUTTON_2"
 		(shape input)
-		(at 381 157.48 0)
+		(at 381 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6450,7 +6438,7 @@
 		)
 		(uuid "14617fba-e8bc-4021-89ab-7e9067d0c78b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.8061 157.48 0)
+			(at 396.8061 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6464,7 +6452,7 @@
 	)
 	(global_label "P2_BUTTON_4"
 		(shape input)
-		(at 381 172.72 0)
+		(at 381 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6474,7 +6462,7 @@
 		)
 		(uuid "170736c5-8bd2-4f6e-9429-fb366c8fce4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.8061 172.72 0)
+			(at 396.8061 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6500,7 @@
 	)
 	(global_label "P1_BUTTON_2"
 		(shape input)
-		(at 323.85 157.48 0)
+		(at 323.85 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6522,31 +6510,7 @@
 		)
 		(uuid "22f75e31-ff06-4fa9-8d76-e4a60db4e133")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.6561 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P2_LEFT_UP"
-		(shape input)
-		(at 355.6 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2af95ad1-d314-444a-8d3a-8b85b68bdea6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.8337 134.62 0)
+			(at 339.6561 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6606,33 +6570,9 @@
 			)
 		)
 	)
-	(global_label "P2_LEFT_DOWN"
-		(shape input)
-		(at 355.6 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ac5d86e-4912-4f76-a98f-78b86f0f43b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.6156 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "P2_BUTTON_1"
 		(shape input)
-		(at 381 149.86 0)
+		(at 381 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6642,7 +6582,7 @@
 		)
 		(uuid "3b5ded35-6262-4a6b-95c2-b599706d9a72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.8061 149.86 0)
+			(at 396.8061 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6846,30 +6786,6 @@
 			)
 		)
 	)
-	(global_label "P1_RIGHT_UP"
-		(shape input)
-		(at 298.45 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "551dd4aa-973f-4711-8ae0-a50f89d063da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.8933 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "P1_UP"
 		(shape input)
 		(at 298.45 134.62 0)
@@ -6920,7 +6836,7 @@
 	)
 	(global_label "P1_BUTTON_3"
 		(shape input)
-		(at 323.85 165.1 0)
+		(at 323.85 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6930,7 +6846,7 @@
 		)
 		(uuid "6a7ce4b5-004b-424a-8abd-103f83d536f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.6561 165.1 0)
+			(at 339.6561 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,30 +6906,6 @@
 			)
 		)
 	)
-	(global_label "P2_RIGHT_UP"
-		(shape input)
-		(at 355.6 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f3c8996-10a7-416f-a05d-0d283a2d8f8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.0433 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "P1_LEFT"
 		(shape output)
 		(at 180.34 66.04 0)
@@ -7038,33 +6930,9 @@
 			)
 		)
 	)
-	(global_label "P1_RIGHT_DOWN"
-		(shape input)
-		(at 323.85 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89646aa6-f9f9-428e-820d-bb899d95fe7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.0752 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "P1_RIGHT"
 		(shape input)
-		(at 298.45 165.1 0)
+		(at 298.45 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7074,7 +6942,7 @@
 		)
 		(uuid "8d5d1e08-5e98-4ac4-b35f-44c396f0a33f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.3252 165.1 0)
+			(at 310.3252 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +6956,7 @@
 	)
 	(global_label "P1_LEFT"
 		(shape input)
-		(at 298.45 157.48 0)
+		(at 298.45 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7098,7 +6966,7 @@
 		)
 		(uuid "903f1d3a-e274-45d7-85ae-e980010611e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.1156 157.48 0)
+			(at 309.1156 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7136,7 +7004,7 @@
 	)
 	(global_label "P1_BUTTON_4"
 		(shape input)
-		(at 323.85 172.72 0)
+		(at 323.85 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7146,7 +7014,7 @@
 		)
 		(uuid "957a7e79-a666-4dc1-aafd-d590c69988a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.2609 172.72 0)
+			(at 340.2609 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7028,7 @@
 	)
 	(global_label "P1_BUTTON_1"
 		(shape input)
-		(at 323.85 149.86 0)
+		(at 323.85 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7170,7 +7038,7 @@
 		)
 		(uuid "a3602e37-0883-44ad-b53a-88383f918b33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.6561 149.86 0)
+			(at 339.6561 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,30 +7063,6 @@
 		(uuid "a84af94c-1bb7-4bde-87d1-4bbb53360f77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.3728 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P1_LEFT_UP"
-		(shape input)
-		(at 298.45 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb03cc47-aa63-407a-a1d9-aaca44484573")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.6837 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7280,7 +7124,7 @@
 	)
 	(global_label "P2_BUTTON_3"
 		(shape input)
-		(at 381 165.1 0)
+		(at 381 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7290,7 +7134,7 @@
 		)
 		(uuid "c75ac921-ab54-48fd-8f63-0dd9cbf123de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.8061 165.1 0)
+			(at 396.8061 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,7 +7148,7 @@
 	)
 	(global_label "P2_UP"
 		(shape input)
-		(at 355.6 142.24 0)
+		(at 355.6 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7314,31 +7158,7 @@
 		)
 		(uuid "cae3fed6-a87f-4326-995b-7713fe278482")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.6328 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P2_RIGHT_DOWN"
-		(shape input)
-		(at 381 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc57e1df-4395-4754-8adc-6cb06f87f3bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 399.2252 142.24 0)
+			(at 364.6328 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7363,30 +7183,6 @@
 		(uuid "d398503f-4b17-4735-b7e8-47af322d6f3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.1347 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P1_LEFT_DOWN"
-		(shape input)
-		(at 298.45 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6747e34-88c2-4732-9bbb-39f38a777934")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.4656 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7448,7 +7244,7 @@
 	)
 	(global_label "P2_RIGHT"
 		(shape input)
-		(at 355.6 165.1 0)
+		(at 355.6 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7458,7 +7254,7 @@
 		)
 		(uuid "f72cd79d-671b-47d9-b28e-c87999acf8b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.4752 165.1 0)
+			(at 367.4752 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +7268,7 @@
 	)
 	(global_label "P2_LEFT"
 		(shape input)
-		(at 355.6 157.48 0)
+		(at 355.6 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7482,7 +7278,7 @@
 		)
 		(uuid "f78c9266-22f4-4c72-97a2-f588f4b3c397")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.2656 157.48 0)
+			(at 366.2656 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7340,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 350.52 165.1 0)
+		(at 350.52 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7556,7 +7352,7 @@
 		(fields_autoplaced yes)
 		(uuid "02aa36f1-7834-40bf-9af9-bd98c76b14bd")
 		(property "Reference" "J13"
-			(at 347.98 165.0999 0)
+			(at 347.98 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7567,7 +7363,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 347.98 167.6399 0)
+			(at 347.98 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7578,7 +7374,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 350.52 165.1 0)
+			(at 350.52 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,7 +7385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 165.1 0)
+			(at 350.52 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7600,7 +7396,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 165.1 0)
+			(at 350.52 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7500,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 350.52 142.24 0)
+		(at 350.52 134.62 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7716,7 +7512,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e2c7b24-e215-4f92-9182-72acbfae969e")
 		(property "Reference" "J10"
-			(at 347.98 142.2399 0)
+			(at 347.98 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7727,7 +7523,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 347.98 144.7799 0)
+			(at 347.98 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7738,7 +7534,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 350.52 142.24 0)
+			(at 350.52 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7749,7 +7545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 142.24 0)
+			(at 350.52 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7760,7 +7556,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 142.24 0)
+			(at 350.52 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8909,90 +8705,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 350.52 134.62 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25b3a4ef-fb78-4a09-83b6-5e110b1a8f7d")
-		(property "Reference" "J19"
-			(at 347.98 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 347.98 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 350.52 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "11ed62f1-478c-4755-92aa-c6659d30052b")
-		)
-		(pin "1"
-			(uuid "4d372670-df5a-487a-a09c-93e09af72c43")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 375.92 157.48 0)
+		(at 375.92 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9004,7 +8717,7 @@
 		(fields_autoplaced yes)
 		(uuid "262fde32-08e7-4796-8ef5-d0f3035080ab")
 		(property "Reference" "J4"
-			(at 373.38 157.4799 0)
+			(at 373.38 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9015,7 +8728,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 373.38 160.0199 0)
+			(at 373.38 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9026,7 +8739,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 375.92 157.48 0)
+			(at 375.92 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9037,7 +8750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 157.48 0)
+			(at 375.92 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9048,7 +8761,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 157.48 0)
+			(at 375.92 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9752,89 +9465,6 @@
 			(project "pcb-arcade-controls"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 350.52 172.72 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3535a9fc-9b08-4818-95d6-bdbaad6e59a4")
-		(property "Reference" "J14"
-			(at 347.98 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 347.98 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 350.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4f0f32fe-4401-4b43-895f-a870b8b014ed")
-		)
-		(pin "1"
-			(uuid "71ae9308-b603-42ee-9040-9595cc2e2906")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -10586,89 +10216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 293.37 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5332ed59-39c4-441d-af5f-63c086b103cb")
-		(property "Reference" "J22"
-			(at 290.83 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 290.83 152.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 293.37 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 293.37 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f9fd7864-3ea2-436e-a7ba-45e48d5e8f3f")
-		)
-		(pin "1"
-			(uuid "61a181f4-b91d-4785-9049-709c7479685c")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 36.83 274.32 0)
 		(unit 1)
@@ -10740,89 +10287,6 @@
 			(project "pcb-arcade-controls"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 293.37 172.72 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58293cef-5630-48f2-bbd9-43241f7a5760")
-		(property "Reference" "J24"
-			(at 290.83 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 290.83 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 293.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 293.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a970d31c-7422-4dc1-ab51-757419760210")
-		)
-		(pin "1"
-			(uuid "cb399c12-5a68-4d2f-a7ba-198d159fc382")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -10918,8 +10382,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5d67f2d8-7ce8-4843-bb56-43d74592176d")
-		(property "Reference" "J8"
+		(uuid "60026e14-bb76-4825-b6e2-34157adf6984")
+		(property "Reference" "J9"
 			(at 316.23 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,89 +10429,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 318.77 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab88992c-083e-4180-8fa7-6461172b0569")
-		)
-		(pin "1"
-			(uuid "0b2811ce-098a-4141-9820-b0ee16e14eee")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 318.77 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60026e14-bb76-4825-b6e2-34157adf6984")
-		(property "Reference" "J9"
-			(at 316.23 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 316.23 152.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 318.77 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 318.77 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11268,7 +10649,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 318.77 165.1 0)
+		(at 318.77 157.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11280,7 +10661,7 @@
 		(fields_autoplaced yes)
 		(uuid "6856c4b3-56d8-4704-b98d-9d4041544501")
 		(property "Reference" "J17"
-			(at 316.23 165.0999 0)
+			(at 316.23 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11291,7 +10672,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 167.6399 0)
+			(at 316.23 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11302,7 +10683,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 318.77 165.1 0)
+			(at 318.77 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11313,7 +10694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 165.1 0)
+			(at 318.77 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +10705,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 318.77 165.1 0)
+			(at 318.77 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11428,7 +10809,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 375.92 149.86 0)
+		(at 375.92 142.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11440,7 +10821,7 @@
 		(fields_autoplaced yes)
 		(uuid "707bf202-e224-4847-9b13-a97f8625a3c4")
 		(property "Reference" "J3"
-			(at 373.38 149.8599 0)
+			(at 373.38 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11451,7 +10832,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 373.38 152.3999 0)
+			(at 373.38 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11462,7 +10843,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 375.92 149.86 0)
+			(at 375.92 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +10854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 149.86 0)
+			(at 375.92 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11484,7 +10865,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 149.86 0)
+			(at 375.92 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11915,89 +11296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 375.92 142.24 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7be0bcea-d335-4cd7-bc22-dd3a19b33fb4")
-		(property "Reference" "J2"
-			(at 373.38 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 373.38 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 375.92 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b5789e4f-307e-4654-a030-c8ed35f3bccd")
-		)
-		(pin "1"
-			(uuid "ee0d5dc5-4e06-4ed1-8aae-d982af701ce3")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 130.81 0)
 		(unit 1)
@@ -12174,89 +11472,6 @@
 			(project "pcb-arcade-controls"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 293.37 142.24 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97632323-b712-40e8-9a6c-946e8cca54c0")
-		(property "Reference" "J21"
-			(at 290.83 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 290.83 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 293.37 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 293.37 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b7bab7fb-59e0-4939-bc9f-b2feb42d66f9")
-		)
-		(pin "1"
-			(uuid "0fe71d18-5f36-41ff-87f0-7fcb86e222be")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -12706,7 +11921,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 318.77 172.72 0)
+		(at 318.77 165.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12718,7 +11933,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5920dbd-1deb-47a2-a3e2-404e82db285e")
 		(property "Reference" "J18"
-			(at 316.23 172.7199 0)
+			(at 316.23 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12729,7 +11944,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 175.2599 0)
+			(at 316.23 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12740,7 +11955,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 318.77 172.72 0)
+			(at 318.77 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12751,7 +11966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 172.72 0)
+			(at 318.77 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12762,7 +11977,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 318.77 172.72 0)
+			(at 318.77 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12789,7 +12004,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 318.77 157.48 0)
+		(at 318.77 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12801,7 +12016,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab29f04d-8f88-4dd0-a496-acc1d50a7cbf")
 		(property "Reference" "J16"
-			(at 316.23 157.4799 0)
+			(at 316.23 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12812,7 +12027,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 160.0199 0)
+			(at 316.23 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12823,7 +12038,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 318.77 157.48 0)
+			(at 318.77 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12834,7 +12049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 157.48 0)
+			(at 318.77 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +12060,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 318.77 157.48 0)
+			(at 318.77 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13033,7 +12248,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 293.37 157.48 0)
+		(at 293.37 142.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13045,7 +12260,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3d7d70a-3ced-431a-9618-076ff2d05193")
 		(property "Reference" "J23"
-			(at 290.83 157.4799 0)
+			(at 290.83 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13056,7 +12271,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 290.83 160.0199 0)
+			(at 290.83 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13067,7 +12282,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 293.37 157.48 0)
+			(at 293.37 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13078,7 +12293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 157.48 0)
+			(at 293.37 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13089,7 +12304,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 293.37 157.48 0)
+			(at 293.37 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13284,7 +12499,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 375.92 165.1 0)
+		(at 375.92 157.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13296,7 +12511,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb0a7417-279d-4c81-abd0-9ef6c10d4e49")
 		(property "Reference" "J5"
-			(at 373.38 165.0999 0)
+			(at 373.38 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13307,7 +12522,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 373.38 167.6399 0)
+			(at 373.38 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13318,7 +12533,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 375.92 165.1 0)
+			(at 375.92 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13329,7 +12544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 165.1 0)
+			(at 375.92 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13340,7 +12555,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 165.1 0)
+			(at 375.92 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13457,7 +12672,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 375.92 172.72 0)
+		(at 375.92 165.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13469,7 +12684,7 @@
 		(fields_autoplaced yes)
 		(uuid "c17aa122-c63e-4a58-a686-cbf7c87d2052")
 		(property "Reference" "J6"
-			(at 373.38 172.7199 0)
+			(at 373.38 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13480,7 +12695,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 373.38 175.2599 0)
+			(at 373.38 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13491,7 +12706,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 375.92 172.72 0)
+			(at 375.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13502,7 +12717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 172.72 0)
+			(at 375.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13513,7 +12728,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 172.72 0)
+			(at 375.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13774,7 +12989,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 293.37 165.1 0)
+		(at 293.37 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13786,7 +13001,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ec16d0-95dd-43a2-a988-1ac81dd8577c")
 		(property "Reference" "J7"
-			(at 290.83 165.0999 0)
+			(at 290.83 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13797,7 +13012,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 290.83 167.6399 0)
+			(at 290.83 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13808,7 +13023,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 293.37 165.1 0)
+			(at 293.37 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13819,7 +13034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 165.1 0)
+			(at 293.37 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13830,7 +13045,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 293.37 165.1 0)
+			(at 293.37 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14292,7 +13507,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 350.52 157.48 0)
+		(at 350.52 142.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14304,7 +13519,7 @@
 		(fields_autoplaced yes)
 		(uuid "d72acc1c-80e7-4593-beac-f8476e95db0e")
 		(property "Reference" "J12"
-			(at 347.98 157.4799 0)
+			(at 347.98 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14315,7 +13530,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 347.98 160.0199 0)
+			(at 347.98 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14326,7 +13541,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 350.52 157.48 0)
+			(at 350.52 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14337,7 +13552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 157.48 0)
+			(at 350.52 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14348,7 +13563,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 157.48 0)
+			(at 350.52 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15353,89 +14568,6 @@
 			(project "pcb-arcade-controls"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 350.52 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe438e80-b6ae-42a0-81a7-57f97c0746ee")
-		(property "Reference" "J11"
-			(at 347.98 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 347.98 152.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 350.52 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5e25e9f4-e684-4609-ac63-2c8275d41a99")
-		)
-		(pin "1"
-			(uuid "b63d6997-ac51-42de-aeab-2ddbd32e0310")
-		)
-		(instances
-			(project "pcb-arcade-controls"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "J11")
 					(unit 1)
 				)
 			)
