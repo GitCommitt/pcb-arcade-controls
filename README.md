@@ -93,3 +93,5 @@ We zijn begonnen met het onderzoeken van hoe we samen in 1 KiCad bestand kunnen 
 We hebben ook het onderzoek gestart naar het kijken welke ADC connecties we kunnen gebruiken van de processor voor de data en de ground connecties van de buttons. 
 
 Het PCB ontwerp en de schematic worden nu aangepast en worden de temporary pins die nu gebruikt worden door de buttons opnieuw aan een pin gezet.
+
+Er word gewerkt aan het erin zetten van de processor op de pcb aangezien die nu niet word weergegeven bij de pcb. De connectors zijn wel toegevoegd en dus zijn de connectors die we daadwerkelijk gaan gebruike zichtbaar op de pcb.
