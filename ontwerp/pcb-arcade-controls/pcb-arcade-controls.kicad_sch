@@ -663,6 +663,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -804,6 +991,186 @@
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.905) (xy -1.143 1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4517,7 +4884,7 @@
 	)
 	(text "Connectors"
 		(exclude_from_sim no)
-		(at 304.292 124.206 0)
+		(at 133.35000000000002 41.91 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -4746,16 +5113,8 @@
 		(uuid "b9103e44-a1b3-4339-8bbe-27c3c0a97a44")
 	)
 	(no_connect
-		(at 368.3 213.36)
-		(uuid "bfdadd51-6edd-4273-8639-8e48fb70d356")
-	)
-	(no_connect
 		(at 255.27 255.27)
 		(uuid "ca0cee67-d418-4ca8-b0fb-997ca0815733")
-	)
-	(no_connect
-		(at 346.71 213.36)
-		(uuid "d2e84f40-2a31-4bbc-b493-a5c1f9ad61aa")
 	)
 	(no_connect
 		(at 218.44 273.05)
@@ -4767,36 +5126,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 134.62) (xy 311.15 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02248fad-18f5-4290-a37f-d56e75bc5c66")
-	)
-	(wire
-		(pts
-			(xy 34.29 231.14) (xy 39.37 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06d752cd-086e-44e3-b83b-f0253d2e6edb")
-	)
-	(wire
-		(pts
-			(xy 308.61 149.86) (xy 308.61 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07de27fb-1c67-4132-9d08-11b1b9e5ff39")
-	)
-	(wire
-		(pts
 			(xy 34.29 238.76) (xy 39.37 238.76)
 		)
 		(stroke
@@ -4804,26 +5133,6 @@
 			(type default)
 		)
 		(uuid "08b2fbbd-89d2-4354-9088-b6d8ad4ccd45")
-	)
-	(wire
-		(pts
-			(xy 346.71 134.62) (xy 349.25 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7a21d1-0f17-4d67-a16a-e116debb2924")
-	)
-	(wire
-		(pts
-			(xy 346.71 137.16) (xy 346.71 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed4ed69-308c-4538-a4b7-b6ad37d4567e")
 	)
 	(wire
 		(pts
@@ -4877,16 +5186,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 162.56) (xy 384.81 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1521aa3d-6e36-4575-9c44-a2bdb5265382")
-	)
-	(wire
-		(pts
 			(xy 27.94 172.72) (xy 39.37 172.72)
 		)
 		(stroke
@@ -4894,26 +5193,6 @@
 			(type default)
 		)
 		(uuid "17727471-ea62-4791-b632-45ec26117f5c")
-	)
-	(wire
-		(pts
-			(xy 384.81 160.02) (xy 387.35 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197c2eee-b532-4db5-81ee-be35cb24f3aa")
-	)
-	(wire
-		(pts
-			(xy 346.71 149.86) (xy 346.71 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ffed39-cc7b-4ce8-97cb-47e14fa3ae6d")
 	)
 	(wire
 		(pts
@@ -4944,16 +5223,6 @@
 			(type default)
 		)
 		(uuid "205b90df-6270-4757-9062-342ac78551a8")
-	)
-	(wire
-		(pts
-			(xy 346.71 160.02) (xy 349.25 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225dcba1-ee37-4807-87aa-eb7a2e347c68")
 	)
 	(wire
 		(pts
@@ -5057,16 +5326,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 228.6) (xy 39.37 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c33e268-f89c-44d3-9625-c76cd7658408")
-	)
-	(wire
-		(pts
 			(xy 160.02 237.49) (xy 161.29 237.49)
 		)
 		(stroke
@@ -5074,16 +5333,6 @@
 			(type default)
 		)
 		(uuid "4c71467a-f1c7-4ee7-8500-d5ef65e0b821")
-	)
-	(wire
-		(pts
-			(xy 346.71 175.26) (xy 346.71 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dd0576b-dfc2-4964-8568-4ad45863c7ac")
 	)
 	(wire
 		(pts
@@ -5107,16 +5356,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 137.16) (xy 308.61 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1a4e11-6159-4758-8bed-62add07deea6")
-	)
-	(wire
-		(pts
 			(xy 186.69 257.81) (xy 195.58 257.81)
 		)
 		(stroke
@@ -5134,46 +5373,6 @@
 			(type default)
 		)
 		(uuid "63434c23-b82e-470f-b10d-5139162c2494")
-	)
-	(wire
-		(pts
-			(xy 270.51 175.26) (xy 270.51 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65561745-b274-4282-b7eb-a1bb81d47517")
-	)
-	(wire
-		(pts
-			(xy 270.51 172.72) (xy 273.05 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6592f2ba-29bb-4f00-a7f7-bd4919fc235c")
-	)
-	(wire
-		(pts
-			(xy 270.51 160.02) (xy 273.05 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66e52a74-d93e-4d79-a925-4bdee24fba01")
-	)
-	(wire
-		(pts
-			(xy 384.81 149.86) (xy 384.81 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694e2efc-b3ac-4288-93c8-60eccda46415")
 	)
 	(wire
 		(pts
@@ -5207,36 +5406,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 175.26) (xy 308.61 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c5b1f66-0617-4bbb-b805-f1710af42596")
-	)
-	(wire
-		(pts
-			(xy 346.71 147.32) (xy 349.25 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c6d2b57-34c2-491b-a0f3-5a65e7d1da2b")
-	)
-	(wire
-		(pts
-			(xy 270.51 137.16) (xy 270.51 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ddd32b0-9d6a-4830-ac17-225c551b6c62")
-	)
-	(wire
-		(pts
 			(xy 54.61 246.38) (xy 57.15 246.38)
 		)
 		(stroke
@@ -5244,16 +5413,6 @@
 			(type default)
 		)
 		(uuid "6df28e3c-c952-43ce-b765-957fd540d364")
-	)
-	(wire
-		(pts
-			(xy 384.81 137.16) (xy 384.81 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed455f6-7b68-409b-acdd-79946a42531c")
 	)
 	(wire
 		(pts
@@ -5284,36 +5443,6 @@
 			(type default)
 		)
 		(uuid "72ce265b-fcf9-48c1-a54f-b91b4d418245")
-	)
-	(wire
-		(pts
-			(xy 384.81 172.72) (xy 387.35 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ed46a4-e569-49fb-928d-9e7d22d2fc01")
-	)
-	(wire
-		(pts
-			(xy 34.29 226.06) (xy 39.37 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f5fa1f-e1f7-4b27-8fa3-99446c258775")
-	)
-	(wire
-		(pts
-			(xy 34.29 233.68) (xy 39.37 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2b7248-9403-44ff-b745-9b57f58b617e")
 	)
 	(wire
 		(pts
@@ -5354,36 +5483,6 @@
 			(type default)
 		)
 		(uuid "82024167-08ae-4e20-aff1-68574dbfe8de")
-	)
-	(wire
-		(pts
-			(xy 308.61 147.32) (xy 311.15 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d70bb9-570e-44ab-a20a-ed77bc513e4b")
-	)
-	(wire
-		(pts
-			(xy 384.81 147.32) (xy 387.35 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88370829-9918-47d8-b607-d382a2370323")
-	)
-	(wire
-		(pts
-			(xy 34.29 236.22) (xy 39.37 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894aff2f-5102-4d38-83ab-169c871da087")
 	)
 	(wire
 		(pts
@@ -5434,26 +5533,6 @@
 			(type default)
 		)
 		(uuid "92a784d7-20f7-4629-8bce-9c9f74b1d8bf")
-	)
-	(wire
-		(pts
-			(xy 270.51 149.86) (xy 270.51 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959ca78c-8770-440b-be88-6718426f64d1")
-	)
-	(wire
-		(pts
-			(xy 384.81 134.62) (xy 387.35 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98cf6571-dc94-4715-8795-55081364d687")
 	)
 	(wire
 		(pts
@@ -5587,16 +5666,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 162.56) (xy 308.61 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0fdcb6-ced5-4ea5-ac8d-75203489892b")
-	)
-	(wire
-		(pts
 			(xy 71.12 265.43) (xy 71.12 266.7)
 		)
 		(stroke
@@ -5614,16 +5683,6 @@
 			(type default)
 		)
 		(uuid "c0579b4e-0094-45a3-89ee-413fc4a2d6fa")
-	)
-	(wire
-		(pts
-			(xy 270.51 134.62) (xy 273.05 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0dff413-d619-4153-8e3b-19a33a1ba490")
 	)
 	(wire
 		(pts
@@ -5657,36 +5716,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 147.32) (xy 273.05 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d593a795-73ef-4d36-9add-9306fab5d5f5")
-	)
-	(wire
-		(pts
-			(xy 308.61 160.02) (xy 311.15 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5be5155-e939-4fee-95d0-c534f193214f")
-	)
-	(wire
-		(pts
-			(xy 346.71 172.72) (xy 349.25 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78aa87e-5cab-4dda-b041-5b12462da3a8")
-	)
-	(wire
-		(pts
 			(xy 36.83 266.7) (xy 36.83 267.97)
 		)
 		(stroke
@@ -5714,16 +5743,6 @@
 			(type default)
 		)
 		(uuid "de8f9dcd-cfd4-44aa-93e5-18bac141876f")
-	)
-	(wire
-		(pts
-			(xy 384.81 175.26) (xy 384.81 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c867c0-6b2e-4b05-8669-a64ef9b3f4fa")
 	)
 	(wire
 		(pts
@@ -5797,26 +5816,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 162.56) (xy 346.71 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb599ce8-477a-49bf-b966-8b9e23388022")
-	)
-	(wire
-		(pts
-			(xy 308.61 172.72) (xy 311.15 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc39e29-1f7d-4ee1-9b23-70c02339186e")
-	)
-	(wire
-		(pts
 			(xy 93.98 266.7) (xy 104.775 266.7)
 		)
 		(stroke
@@ -5824,16 +5823,6 @@
 			(type default)
 		)
 		(uuid "fcdbb5fc-dab5-4354-967b-45885f3ac73b")
-	)
-	(wire
-		(pts
-			(xy 270.51 162.56) (xy 270.51 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef453bc-4d09-4ac0-ab3d-169aa2cbb90d")
 	)
 	(label "MCU_D-"
 		(at 81.28 200.66 180)
@@ -5874,16 +5863,6 @@
 			(justify right bottom)
 		)
 		(uuid "46bc4d38-3ef2-4d1e-8b4f-d02b4d031765")
-	)
-	(label "B11"
-		(at 34.29 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f5384eb-35d1-4d2d-aab5-5cf41d9640b9")
 	)
 	(label "MCU_D+"
 		(at 81.28 203.2 180)
@@ -5975,16 +5954,6 @@
 		)
 		(uuid "94f256d9-37a6-490d-99d3-e8177f5dd8a9")
 	)
-	(label "B12"
-		(at 34.29 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "979869a6-6bc6-4518-be1a-b015a5ed707d")
-	)
 	(label "C13"
 		(at 34.29 190.5 0)
 		(effects
@@ -6035,16 +6004,6 @@
 		)
 		(uuid "bb7b9787-9f8b-436f-b728-01d62ec6cdea")
 	)
-	(label "B13"
-		(at 34.29 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdb26e85-f29c-4139-9e4f-e37c34ed6b9c")
-	)
 	(label "VDD1"
 		(at 54.61 160.655 270)
 		(effects
@@ -6075,16 +6034,6 @@
 		)
 		(uuid "caaaed1d-f987-486d-b6c9-a7af023822b5")
 	)
-	(label "B10"
-		(at 34.29 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccca648a-b394-4b31-8bea-c226e7ed43fa")
-	)
 	(label "USB_D-"
 		(at 214.63 260.35 180)
 		(effects
@@ -6104,16 +6053,6 @@
 			(justify right bottom)
 		)
 		(uuid "dadab9dc-4f43-4e99-a5cb-c4831d475b18")
-	)
-	(label "B14"
-		(at 34.29 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edb1a3f5-4ad8-417b-ac95-deccbe3d4287")
 	)
 	(label "MCU_D+"
 		(at 186.69 257.81 0)
@@ -6155,1017 +6094,9 @@
 		)
 		(uuid "fa35f619-9509-4e8c-a4ac-697874e0deae")
 	)
-	(global_label "ROW1"
-		(shape output)
-		(at 346.71 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "007757a7-2d33-4a0a-b4ee-5f9e3832eb5c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.71 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape output)
-		(at 384.81 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06aa8029-21c6-4756-b0a8-db2bee11c66b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 394.81 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 316.23 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f70ea68-4e0b-44e6-979b-2eeb7787cd7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.23 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 316.23 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "140ea566-d762-4d87-9423-73a08a8e3413")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.23 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape output)
-		(at 384.81 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14b73b42-6f45-4c67-bafc-71b2f17a2e77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 394.81 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 72.39 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1bc6c0f9-de52-4b55-8e9b-c656bf964ab8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4228 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL2"
-		(shape input)
-		(at 354.33 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24f3c137-a2c3-4b99-8b0b-b627baa9e566")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.33 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 316.23 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e8ba551-8c4e-434e-bb75-c4405531acef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.23 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 278.13 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3010c71f-f558-4d99-b004-42f04d566f25")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.13 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 316.23 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "394f6d4e-41c6-48dc-99c7-29a89814f877")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.23 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape output)
-		(at 39.37 200.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c1e81fc-5599-4e33-ac49-cff9551c46d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0356 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape output)
-		(at 39.37 205.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3cb73e40-7637-4daf-9da5-62d1ab6fb9b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0356 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape output)
-		(at 308.61 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d373f87-96ab-41fd-aa5c-53e8804795dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.61 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 392.43 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4071de47-b71c-49f2-8d49-c46d735b0101")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 402.43 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL2"
-		(shape input)
-		(at 354.33 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ae86912-374c-429f-8b9b-9766b49095b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.33 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 278.13 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b09cfb6-bc72-4341-9c46-f8e159a74ee9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.13 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape output)
-		(at 346.71 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70b8bd2a-89ca-4447-94f7-8ce4720351e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.71 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape output)
-		(at 308.61 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75705c57-ee10-4c26-ab3e-d63e12c3a7dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.61 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 278.13 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "780c3b7b-7fd8-403d-a98d-a4e518a45f81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.13 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape output)
-		(at 384.81 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ea18086-64d9-4be4-b4bd-1e332a098485")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 394.81 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape output)
-		(at 346.71 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b23adde-5324-4687-a423-d614a248ffb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape output)
-		(at 72.39 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d96a71b-b4da-494b-9721-33d143297ccc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4228 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 72.39 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ea3c05f-362d-4d66-854c-68b9f7645c90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4228 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL2"
-		(shape input)
-		(at 354.33 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "915c5c36-f3da-43fb-8a96-258d4b9a920e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.33 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape output)
-		(at 308.61 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95f47a11-e453-4835-952e-93b669e7b9d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.61 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 278.13 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6bda0b7-f0d1-44d4-90c7-e47477488d85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.13 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape output)
-		(at 39.37 203.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0d6d9a3-4ea4-4d5b-bde6-3e90f5705909")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0356 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 392.43 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c516b8e4-1579-48a9-9943-5de29ca98644")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 402.43 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape output)
-		(at 270.51 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c73e93d1-501f-45f7-8d9b-14e51df3c932")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.51 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 72.39 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd0cffde-9046-4a34-ac49-79e98cd9c4e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4228 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL2"
-		(shape input)
-		(at 354.33 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4f5e902-83a8-48d0-a3f9-17e81be376ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.33 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape output)
-		(at 270.51 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df62ff90-0d7a-4e81-9d14-701e4394cb9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.51 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 392.43 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e388943b-6dcb-4551-ab88-b5329ba06f1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 402.43 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL5"
-		(shape input)
-		(at 72.39 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e59e585f-f3ae-4e60-b5d3-1c4f928b0033")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4228 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 392.43 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "edf37661-0aa7-4d82-b71f-a4e800f65ea4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 402.43 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape output)
-		(at 346.71 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eecf9422-a397-49dc-a5bd-fb8fb5913fa3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.71 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape output)
-		(at 384.81 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0e97382-2657-4a9d-9313-3b198526248e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 394.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape output)
-		(at 270.51 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f67c270f-ef68-4e2a-9ccf-67d94c1b5b99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.51 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL2"
-		(shape input)
-		(at 72.39 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9438e19-9be3-4a6f-97cc-260a5cbfb733")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4228 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape output)
-		(at 308.61 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fca67bef-c19e-4497-95f7-8972681e3c13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.61 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL4"
-		(shape input)
-		(at 72.39 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd68ca69-6bc1-4deb-b503-638d59ccf363")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4228 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape output)
-		(at 270.51 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fdcb401e-b273-43f6-9cda-80f1425cc199")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.51 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 275.59 172.72 0)
+		(at 156.21 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7175,7 +6106,7 @@
 		(dnp no)
 		(uuid "01c00177-ecd2-4c18-b2eb-e988c06cbac2")
 		(property "Reference" "D13"
-			(at 275.59 170.18 0)
+			(at 156.21 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7184,8 +6115,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 275.59 175.26 0)
+		(property "Value" "1N4148"
+			(at 156.21 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,8 +6126,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 275.59 172.72 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 156.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +6138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 172.72 0)
+			(at 156.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +6149,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 275.59 172.72 0)
+			(at 156.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +6176,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 379.73 160.02 0)
+		(at 241.3 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7257,7 +6188,7 @@
 		(fields_autoplaced yes)
 		(uuid "02aa36f1-7834-40bf-9af9-bd98c76b14bd")
 		(property "Reference" "J13"
-			(at 377.19 160.02 0)
+			(at 238.76 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7268,7 +6199,7 @@
 			)
 		)
 		(property "Value" "P2_RIGHT"
-			(at 377.19 162.56 0)
+			(at 238.76 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7279,7 +6210,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 379.73 160.02 0)
+			(at 241.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +6221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 160.02 0)
+			(at 241.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7301,7 +6232,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 379.73 160.02 0)
+			(at 241.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7328,7 +6259,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 351.79 147.32 0)
+		(at 219.71 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7338,7 +6269,7 @@
 		(dnp no)
 		(uuid "053e6ebb-1d5d-458f-8e56-78fa73ec9140")
 		(property "Reference" "D7"
-			(at 351.79 144.78 0)
+			(at 219.71 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7347,8 +6278,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 351.79 149.86 0)
+		(property "Value" "1N4148"
+			(at 219.71 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,8 +6289,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 351.79 147.32 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 219.71 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7370,7 +6301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 147.32 0)
+			(at 219.71 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,7 +6312,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 351.79 147.32 0)
+			(at 219.71 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7408,7 +6339,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 351.79 172.72 0)
+		(at 219.71 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7418,7 +6349,7 @@
 		(dnp no)
 		(uuid "0890ee80-668e-4733-9bf7-3f8fa8afd3cc")
 		(property "Reference" "D15"
-			(at 351.79 170.18 0)
+			(at 219.71 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7427,8 +6358,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 351.79 175.26 0)
+		(property "Value" "1N4148"
+			(at 219.71 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,8 +6369,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 351.79 172.72 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 219.71 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +6381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 172.72 0)
+			(at 219.71 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,7 +6392,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 351.79 172.72 0)
+			(at 219.71 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,7 +6496,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 265.43 160.02 0)
+		(at 146.05 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7577,7 +6508,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e2c7b24-e215-4f92-9182-72acbfae969e")
 		(property "Reference" "J10"
-			(at 262.89 160.02 0)
+			(at 143.51 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7588,7 +6519,7 @@
 			)
 		)
 		(property "Value" "P2_UP"
-			(at 262.89 162.56 0)
+			(at 143.51 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7599,7 +6530,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 265.43 160.02 0)
+			(at 146.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7610,7 +6541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 160.02 0)
+			(at 146.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7621,7 +6552,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 160.02 0)
+			(at 146.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,7 +7158,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 303.53 134.62 0)
+		(at 177.8 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8239,7 +7170,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b9c7a1f-9703-4368-aadf-835ea2ce9089")
 		(property "Reference" "J25"
-			(at 300.99 134.62 0)
+			(at 175.26 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8250,7 +7181,7 @@
 			)
 		)
 		(property "Value" "P1_DOWN"
-			(at 300.99 137.16 0)
+			(at 175.26 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8261,7 +7192,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 303.53 134.62 0)
+			(at 177.8 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8272,7 +7203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 134.62 0)
+			(at 177.8 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +7214,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 303.53 134.62 0)
+			(at 177.8 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +7343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 106.68 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +7404,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 303.53 172.72 0)
+		(at 177.8 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8485,7 +7416,7 @@
 		(fields_autoplaced yes)
 		(uuid "262fde32-08e7-4796-8ef5-d0f3035080ab")
 		(property "Reference" "J4"
-			(at 300.99 172.72 0)
+			(at 175.26 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8496,7 +7427,7 @@
 			)
 		)
 		(property "Value" "P2_BUTTON_2"
-			(at 300.99 175.26 0)
+			(at 175.26 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8507,7 +7438,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 303.53 172.72 0)
+			(at 177.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8518,7 +7449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 172.72 0)
+			(at 177.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8529,7 +7460,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 303.53 172.72 0)
+			(at 177.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8556,7 +7487,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 389.89 160.02 0)
+		(at 251.46 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8566,7 +7497,7 @@
 		(dnp no)
 		(uuid "266cc801-9ad9-4dca-b679-81649d69f407")
 		(property "Reference" "D12"
-			(at 389.89 157.48 0)
+			(at 251.46 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8575,8 +7506,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 389.89 162.56 0)
+		(property "Value" "1N4148"
+			(at 251.46 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8586,8 +7517,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 389.89 160.02 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 251.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8598,7 +7529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 160.02 0)
+			(at 251.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8609,7 +7540,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 389.89 160.02 0)
+			(at 251.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8668,7 +7599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 36.83 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -9350,7 +8281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 232.41 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -9599,7 +8530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 104.775 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -9826,7 +8757,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 265.43 134.62 0)
+		(at 146.05 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9838,7 +8769,7 @@
 		(fields_autoplaced yes)
 		(uuid "4af86df2-39dc-40c2-b4a3-0b1ef1348cf6")
 		(property "Reference" "J20"
-			(at 262.89 134.62 0)
+			(at 143.51 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9849,7 +8780,7 @@
 			)
 		)
 		(property "Value" "P1_UP"
-			(at 262.89 137.16 0)
+			(at 143.51 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9860,7 +8791,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 265.43 134.62 0)
+			(at 146.05 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,7 +8802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 134.62 0)
+			(at 146.05 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +8813,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 134.62 0)
+			(at 146.05 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,7 +8840,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 275.59 134.62 0)
+		(at 156.21 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9919,7 +8850,7 @@
 		(dnp no)
 		(uuid "4b859fc9-ca6d-4a07-8fe8-9da9802e58c0")
 		(property "Reference" "D1"
-			(at 275.59 132.08 0)
+			(at 156.21 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9928,8 +8859,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 275.59 137.16 0)
+		(property "Value" "1N4148"
+			(at 156.21 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9939,8 +8870,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 275.59 134.62 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 156.21 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9951,7 +8882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 134.62 0)
+			(at 156.21 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9962,7 +8893,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 275.59 134.62 0)
+			(at 156.21 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,7 +8920,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 313.69 160.02 0)
+		(at 187.96 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9999,7 +8930,7 @@
 		(dnp no)
 		(uuid "50d92c31-3c7d-4e52-850d-3ac36d34364b")
 		(property "Reference" "D10"
-			(at 313.69 157.48 0)
+			(at 187.96 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10008,8 +8939,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 313.69 162.56 0)
+		(property "Value" "1N4148"
+			(at 187.96 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10019,8 +8950,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 313.69 160.02 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 187.96 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10031,7 +8962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 313.69 160.02 0)
+			(at 187.96 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10042,7 +8973,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 313.69 160.02 0)
+			(at 187.96 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10224,7 +9155,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 351.79 160.02 0)
+		(at 219.71 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10234,7 +9165,7 @@
 		(dnp no)
 		(uuid "5e6878f8-0aae-45ba-8c6d-0136bae2f6bb")
 		(property "Reference" "D11"
-			(at 351.79 157.48 0)
+			(at 219.71 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10243,8 +9174,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 351.79 162.56 0)
+		(property "Value" "1N4148"
+			(at 219.71 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,8 +9185,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 351.79 160.02 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10266,7 +9197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 160.02 0)
+			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10277,7 +9208,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 351.79 160.02 0)
+			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10304,7 +9235,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 389.89 172.72 0)
+		(at 251.46 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10314,7 +9245,7 @@
 		(dnp no)
 		(uuid "5f6f3840-8ecc-404a-92a0-d16a01aa7c65")
 		(property "Reference" "D16"
-			(at 389.89 170.18 0)
+			(at 251.46 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10323,8 +9254,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 389.89 175.26 0)
+		(property "Value" "1N4148"
+			(at 251.46 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,8 +9265,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 389.89 172.72 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 251.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10346,7 +9277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 172.72 0)
+			(at 251.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10357,7 +9288,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 389.89 172.72 0)
+			(at 251.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10384,7 +9315,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 265.43 147.32 0)
+		(at 146.05 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10396,7 +9327,7 @@
 		(fields_autoplaced yes)
 		(uuid "60026e14-bb76-4825-b6e2-34157adf6984")
 		(property "Reference" "J9"
-			(at 262.89 147.32 0)
+			(at 143.51 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10407,7 +9338,7 @@
 			)
 		)
 		(property "Value" "P1_BUTTON_1"
-			(at 262.89 149.86 0)
+			(at 143.51 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10418,7 +9349,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 265.43 147.32 0)
+			(at 146.05 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +9360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 147.32 0)
+			(at 146.05 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,7 +9371,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 147.32 0)
+			(at 146.05 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10499,7 +9430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 47.625 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -10571,7 +9502,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 341.63 147.32 0)
+		(at 209.55 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10583,7 +9514,7 @@
 		(fields_autoplaced yes)
 		(uuid "6856c4b3-56d8-4704-b98d-9d4041544501")
 		(property "Reference" "J17"
-			(at 339.09 147.32 0)
+			(at 207.01 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10594,7 +9525,7 @@
 			)
 		)
 		(property "Value" "P1_BUTTON_3"
-			(at 339.09 149.86 0)
+			(at 207.01 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10605,7 +9536,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 341.63 147.32 0)
+			(at 209.55 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10616,7 +9547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 147.32 0)
+			(at 209.55 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,7 +9558,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 341.63 147.32 0)
+			(at 209.55 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +9662,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 389.89 134.62 0)
+		(at 251.46 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10741,7 +9672,7 @@
 		(dnp no)
 		(uuid "6b911c20-343c-43a7-8859-1231e5819557")
 		(property "Reference" "D4"
-			(at 389.89 132.08 0)
+			(at 251.46 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10750,8 +9681,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 389.89 137.16 0)
+		(property "Value" "1N4148"
+			(at 251.46 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10761,8 +9692,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 389.89 134.62 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 251.46 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +9704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 134.62 0)
+			(at 251.46 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10784,7 +9715,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 389.89 134.62 0)
+			(at 251.46 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10811,7 +9742,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 265.43 172.72 0)
+		(at 146.05 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10823,7 +9754,7 @@
 		(fields_autoplaced yes)
 		(uuid "707bf202-e224-4847-9b13-a97f8625a3c4")
 		(property "Reference" "J3"
-			(at 262.89 172.72 0)
+			(at 143.51 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10834,7 +9765,7 @@
 			)
 		)
 		(property "Value" "P2_BUTTON_1"
-			(at 262.89 175.26 0)
+			(at 143.51 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10845,7 +9776,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 265.43 172.72 0)
+			(at 146.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10856,7 +9787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 172.72 0)
+			(at 146.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10867,7 +9798,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 172.72 0)
+			(at 146.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10999,7 +9930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 81.915 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -11071,7 +10002,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 275.59 160.02 0)
+		(at 156.21 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11081,7 +10012,7 @@
 		(dnp no)
 		(uuid "8e2e2851-a437-46ec-aa94-3e843c34a7a0")
 		(property "Reference" "D9"
-			(at 275.59 157.48 0)
+			(at 156.21 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11090,8 +10021,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 275.59 162.56 0)
+		(property "Value" "1N4148"
+			(at 156.21 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11101,8 +10032,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 275.59 160.02 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 156.21 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11113,7 +10044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 160.02 0)
+			(at 156.21 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11124,7 +10055,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 275.59 160.02 0)
+			(at 156.21 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,7 +10082,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 313.69 147.32 0)
+		(at 187.96 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11161,7 +10092,7 @@
 		(dnp no)
 		(uuid "99efcf17-f97b-4908-b7b5-9c67b0630e34")
 		(property "Reference" "D6"
-			(at 313.69 144.78 0)
+			(at 187.96 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11170,8 +10101,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 313.69 149.86 0)
+		(property "Value" "1N4148"
+			(at 187.96 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11181,8 +10112,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 313.69 147.32 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11193,7 +10124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 313.69 147.32 0)
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11204,7 +10135,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 313.69 147.32 0)
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,7 +10272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 24.765 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -11444,7 +10375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 27.94 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11505,7 +10436,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 379.73 147.32 0)
+		(at 241.3 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11517,7 +10448,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5920dbd-1deb-47a2-a3e2-404e82db285e")
 		(property "Reference" "J18"
-			(at 377.19 147.32 0)
+			(at 238.76 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11528,7 +10459,7 @@
 			)
 		)
 		(property "Value" "P1_BUTTON_4"
-			(at 377.19 149.86 0)
+			(at 238.76 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11539,7 +10470,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 379.73 147.32 0)
+			(at 241.3 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11550,7 +10481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 147.32 0)
+			(at 241.3 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11561,7 +10492,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 379.73 147.32 0)
+			(at 241.3 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11588,7 +10519,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 303.53 147.32 0)
+		(at 177.8 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11600,7 +10531,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab29f04d-8f88-4dd0-a496-acc1d50a7cbf")
 		(property "Reference" "J16"
-			(at 300.99 147.32 0)
+			(at 175.26 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11611,7 +10542,7 @@
 			)
 		)
 		(property "Value" "P1_BUTTON_2"
-			(at 300.99 149.86 0)
+			(at 175.26 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11622,7 +10553,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 303.53 147.32 0)
+			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11633,7 +10564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 147.32 0)
+			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11644,7 +10575,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 303.53 147.32 0)
+			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +10602,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 313.69 134.62 0)
+		(at 187.96 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11681,7 +10612,7 @@
 		(dnp no)
 		(uuid "ab35e913-5e9f-45e9-8a7a-cf70aba8d679")
 		(property "Reference" "D2"
-			(at 313.69 132.08 0)
+			(at 187.96 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11690,8 +10621,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 313.69 137.16 0)
+		(property "Value" "1N4148"
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11701,8 +10632,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 313.69 134.62 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 187.96 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11713,7 +10644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 313.69 134.62 0)
+			(at 187.96 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11724,7 +10655,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 313.69 134.62 0)
+			(at 187.96 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +10682,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 303.53 160.02 0)
+		(at 177.8 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11763,7 +10694,7 @@
 		(fields_autoplaced yes)
 		(uuid "af7cb1ad-dd60-4914-afbe-8130ef6cc07d")
 		(property "Reference" "J15"
-			(at 300.99 160.02 0)
+			(at 175.26 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11774,7 +10705,7 @@
 			)
 		)
 		(property "Value" "P2_DOWN"
-			(at 300.99 162.56 0)
+			(at 175.26 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11785,7 +10716,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 303.53 160.02 0)
+			(at 177.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11796,7 +10727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 160.02 0)
+			(at 177.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11807,7 +10738,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 303.53 160.02 0)
+			(at 177.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11834,7 +10765,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 341.63 134.62 0)
+		(at 209.55 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11846,7 +10777,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3d7d70a-3ced-431a-9618-076ff2d05193")
 		(property "Reference" "J23"
-			(at 339.09 134.62 0)
+			(at 207.01 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11857,7 +10788,7 @@
 			)
 		)
 		(property "Value" "P1_LEFT"
-			(at 339.09 137.16 0)
+			(at 207.01 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11868,7 +10799,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 341.63 134.62 0)
+			(at 209.55 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11879,7 +10810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 134.62 0)
+			(at 209.55 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11890,7 +10821,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 341.63 134.62 0)
+			(at 209.55 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11995,7 +10926,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 341.63 172.72 0)
+		(at 209.55 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12007,7 +10938,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb0a7417-279d-4c81-abd0-9ef6c10d4e49")
 		(property "Reference" "J5"
-			(at 339.09 172.72 0)
+			(at 207.01 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12018,7 +10949,7 @@
 			)
 		)
 		(property "Value" "P2_BUTTON_3"
-			(at 339.09 175.26 0)
+			(at 207.01 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12029,7 +10960,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 341.63 172.72 0)
+			(at 209.55 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12040,7 +10971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 172.72 0)
+			(at 209.55 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12051,7 +10982,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 341.63 172.72 0)
+			(at 209.55 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12107,7 +11038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 163.83 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -12168,7 +11099,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 379.73 172.72 0)
+		(at 241.3 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12180,7 +11111,7 @@
 		(fields_autoplaced yes)
 		(uuid "c17aa122-c63e-4a58-a686-cbf7c87d2052")
 		(property "Reference" "J6"
-			(at 377.19 172.72 0)
+			(at 238.76 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12191,7 +11122,7 @@
 			)
 		)
 		(property "Value" "P2_BUTTON_4"
-			(at 377.19 175.26 0)
+			(at 238.76 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12202,7 +11133,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 379.73 172.72 0)
+			(at 241.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12213,7 +11144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 172.72 0)
+			(at 241.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12224,7 +11155,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 379.73 172.72 0)
+			(at 241.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12485,7 +11416,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 379.73 134.62 0)
+		(at 241.3 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12497,7 +11428,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ec16d0-95dd-43a2-a988-1ac81dd8577c")
 		(property "Reference" "J7"
-			(at 377.19 134.62 0)
+			(at 238.76 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12508,7 +11439,7 @@
 			)
 		)
 		(property "Value" "P1_RIGHT"
-			(at 377.19 137.16 0)
+			(at 238.76 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12519,7 +11450,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 379.73 134.62 0)
+			(at 241.3 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,7 +11461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 134.62 0)
+			(at 241.3 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12541,7 +11472,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 379.73 134.62 0)
+			(at 241.3 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12597,7 +11528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 163.83 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -12687,7 +11618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Fuse_0603"
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT050"
 			(at 166.37 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12931,7 +11862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 93.98 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -13003,7 +11934,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 341.63 160.02 0)
+		(at 209.55 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13015,7 +11946,7 @@
 		(fields_autoplaced yes)
 		(uuid "d72acc1c-80e7-4593-beac-f8476e95db0e")
 		(property "Reference" "J12"
-			(at 339.09 160.02 0)
+			(at 207.01 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13026,7 +11957,7 @@
 			)
 		)
 		(property "Value" "P2_LEFT"
-			(at 339.09 162.56 0)
+			(at 207.01 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13037,7 +11968,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 341.63 160.02 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13048,7 +11979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 160.02 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13059,7 +11990,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 341.63 160.02 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13272,7 +12203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 71.12 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -13629,7 +12560,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 313.69 172.72 0)
+		(at 187.96 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13639,7 +12570,7 @@
 		(dnp no)
 		(uuid "ea659973-23b9-43c4-a91b-0823f658ef43")
 		(property "Reference" "D14"
-			(at 313.69 170.18 0)
+			(at 187.96 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13648,8 +12579,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 313.69 175.26 0)
+		(property "Value" "1N4148"
+			(at 187.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13659,8 +12590,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 313.69 172.72 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 187.96 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13671,7 +12602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 313.69 172.72 0)
+			(at 187.96 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13682,7 +12613,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 313.69 172.72 0)
+			(at 187.96 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13709,7 +12640,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 351.79 134.62 0)
+		(at 219.71 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13719,7 +12650,7 @@
 		(dnp no)
 		(uuid "ec8f299f-85f0-4b70-bb7d-0b44a987ed9a")
 		(property "Reference" "D3"
-			(at 351.79 132.08 0)
+			(at 219.71 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13728,8 +12659,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 351.79 137.16 0)
+		(property "Value" "1N4148"
+			(at 219.71 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13739,8 +12670,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 351.79 134.62 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 219.71 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13751,7 +12682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 134.62 0)
+			(at 219.71 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13762,7 +12693,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 351.79 134.62 0)
+			(at 219.71 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13821,7 +12752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 59.055 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -13893,7 +12824,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 389.89 147.32 0)
+		(at 251.46 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13903,7 +12834,7 @@
 		(dnp no)
 		(uuid "f5318e22-c4ea-4cd0-b677-c93324ad00b5")
 		(property "Reference" "D8"
-			(at 389.89 144.78 0)
+			(at 251.46 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13912,8 +12843,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 389.89 149.86 0)
+		(property "Value" "1N4148"
+			(at 251.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13923,8 +12854,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 389.89 147.32 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 251.46 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13935,7 +12866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 147.32 0)
+			(at 251.46 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13946,7 +12877,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 389.89 147.32 0)
+			(at 251.46 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14050,7 +12981,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 275.59 147.32 0)
+		(at 156.21 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14060,7 +12991,7 @@
 		(dnp no)
 		(uuid "f957c1e1-7be9-4b44-8576-f70664314649")
 		(property "Reference" "D5"
-			(at 275.59 144.78 0)
+			(at 156.21 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14069,8 +13000,8 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 275.59 149.86 0)
+		(property "Value" "1N4148"
+			(at 156.21 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14080,8 +13011,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 275.59 147.32 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 156.21 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14092,7 +13023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 147.32 0)
+			(at 156.21 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14103,7 +13034,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 275.59 147.32 0)
+			(at 156.21 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14159,7 +13090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Button_TL3342"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 96.52 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -14252,7 +13183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 250.19 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -14464,6 +13395,5078 @@
 					(reference "#FLG03")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 273.05 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8ffb04-0def-4343-978d-82a82f83f070")
+		(property "Reference" "J26"
+			(at 270.51 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_START"
+			(at 270.51 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "118c208f-aa17-4fb0-af8b-edbc50799d7a")
+		)
+		(pin "1"
+			(uuid "a93a26c3-dd52-4bd9-82dd-7ccc17e142bb")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 283.21 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca9239a0-f19d-4007-8ddc-d0d5224f1008")
+		(property "Reference" "D17"
+			(at 283.21 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 283.21 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 283.21 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 283.21 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f05e0a80-838f-4d78-ab83-159dda5ee028")
+		)
+		(pin "2"
+			(uuid "0628ea2f-1906-4f91-8a28-dc253513db77")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 304.8 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b58194a-19d9-4f87-a564-72f80468513e")
+		(property "Reference" "J27"
+			(at 302.26 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_COIN"
+			(at 302.26 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 304.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 304.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6bafe260-8f11-4029-a9e0-d792aa05ff0f")
+		)
+		(pin "1"
+			(uuid "ae04df57-176a-4946-8244-9e1119cd37e9")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 314.96 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "205c24f0-3698-49e4-ad4c-858e55b1992c")
+		(property "Reference" "D18"
+			(at 314.96 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 314.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 314.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 314.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bba96665-6129-416b-8296-57ce4d942ae8")
+		)
+		(pin "2"
+			(uuid "bb90dec3-5613-4472-8a5b-eccb555bf9c1")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 336.55 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084c5836-f2be-49a3-8c86-3c068024e5ad")
+		(property "Reference" "J28"
+			(at 334.01 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_EXTRA_1"
+			(at 334.01 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 336.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 336.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "15835b79-1bf2-40b1-8e00-e69a45a2578b")
+		)
+		(pin "1"
+			(uuid "65d9934e-3bd6-40cd-88e0-2b6f9124739b")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 346.71 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69459786-c4c5-433c-9a23-800738f87ba0")
+		(property "Reference" "D19"
+			(at 346.71 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 346.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 346.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 346.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0450022b-6fc9-446a-bc80-9041d4e86ee5")
+		)
+		(pin "2"
+			(uuid "ab9d3635-912f-48d7-883a-997d887a8a1b")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 368.3 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e2633c9-5d37-47de-9201-8e5266f9631f")
+		(property "Reference" "J29"
+			(at 365.76 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_EXTRA_2"
+			(at 365.76 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 368.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 368.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "81e7ed7e-0a37-4b54-9870-a3f28f3bb634")
+		)
+		(pin "1"
+			(uuid "6c0fe12b-9c1a-4d0b-bffd-0220a08b5bbc")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 378.46 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "910a2758-b392-4ee4-80f8-20fe64c1c105")
+		(property "Reference" "D20"
+			(at 378.46 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 378.46 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 378.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 378.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce24d210-d760-4119-ba5d-737d8ea28714")
+		)
+		(pin "2"
+			(uuid "b116e1d6-4124-4e6f-8778-734f4d345d7b")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 273.05 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7021f447-8871-4645-b954-e769317dc8d2")
+		(property "Reference" "J30"
+			(at 270.51 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_BUTTON_5"
+			(at 270.51 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 273.05 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ceb24d8b-c578-4ae7-8928-6d14c8866215")
+		)
+		(pin "1"
+			(uuid "c72d17fb-3bb6-44e8-88a9-efe874bd2036")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 283.21 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "701becce-014a-4725-852c-d6159ad12852")
+		(property "Reference" "D21"
+			(at 283.21 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 283.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 283.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 283.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "717d085f-abcd-4637-bca7-4652d23c6338")
+		)
+		(pin "2"
+			(uuid "1a916b74-e894-4030-8178-8df049371fc5")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 304.8 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f6abea3-e5b3-4731-b586-5aa9cd8ae24e")
+		(property "Reference" "J31"
+			(at 302.26 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_BUTTON_6"
+			(at 302.26 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 304.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 304.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "094c9f08-4b11-4a21-b615-2f31aed92893")
+		)
+		(pin "1"
+			(uuid "fac55ab6-f735-4777-8ec9-09c7f86805fe")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 314.96 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "897d128f-da33-446b-89ac-26d2df922b09")
+		(property "Reference" "D22"
+			(at 314.96 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 314.96 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 314.96 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 314.96 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "589fff44-f874-4c82-ac8c-8fd4593b7490")
+		)
+		(pin "2"
+			(uuid "4578e3a8-df44-42cd-b1fe-2b2e2d8c26b6")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 336.55 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb998b5b-e8c3-4771-af7d-58a234762199")
+		(property "Reference" "J32"
+			(at 334.01 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_BUTTON_7"
+			(at 334.01 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 336.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 336.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "417b509d-2c00-4c19-a7f0-7f735b585c04")
+		)
+		(pin "1"
+			(uuid "db9f2dc2-e613-4b67-a7cf-fba27969e3d4")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 346.71 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fef3bfe7-f6ba-451c-9ec8-30f1bafa7d11")
+		(property "Reference" "D23"
+			(at 346.71 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 346.71 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 346.71 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 346.71 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d34b036-a4d8-4d44-85f5-38429dcfd24d")
+		)
+		(pin "2"
+			(uuid "86a6ee95-8340-490d-80d3-8ce0b2fb2487")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 368.3 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eaf0369-c8e7-4349-9a63-edd164be7e88")
+		(property "Reference" "J33"
+			(at 365.76 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1_BUTTON_8"
+			(at 365.76 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 368.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 368.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d2a13bb-bcd4-4c3a-98b8-35331bb6e379")
+		)
+		(pin "1"
+			(uuid "d1d66cf7-2a1c-4c20-bace-f292d7df1a2c")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 378.46 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "884e1e32-8cfc-4fe1-b740-c763a83a7247")
+		(property "Reference" "D24"
+			(at 378.46 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 378.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 378.46 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 378.46 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3ec642d-255f-4b41-8814-e829538b1377")
+		)
+		(pin "2"
+			(uuid "db4c78d5-8cdb-4946-9594-37679e32b0c4")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 273.05 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2787791d-a0a4-4fed-9731-5d1170bc3b26")
+		(property "Reference" "J34"
+			(at 270.51 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_START"
+			(at 270.51 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 273.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9d9ff269-f63f-48ea-b168-5a5dc3d342d6")
+		)
+		(pin "1"
+			(uuid "4ffa3430-a23c-4819-84ce-7f069a4038e4")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 283.21 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c6276eb-8686-4507-9e7d-b61c1e3bdb9a")
+		(property "Reference" "D25"
+			(at 283.21 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 283.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 283.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 283.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8001c599-1daa-46f2-a778-0c7dd5bce048")
+		)
+		(pin "2"
+			(uuid "91037264-3372-48d4-a96c-331ea0eb5ce1")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 304.8 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42855250-15c2-4edc-bef3-e28970779733")
+		(property "Reference" "J35"
+			(at 302.26 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_COIN"
+			(at 302.26 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 304.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 304.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ae81cac-59b7-4dac-ae3c-805b6ce08339")
+		)
+		(pin "1"
+			(uuid "13075be2-6e7e-42a2-be28-b68cac704174")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 314.96 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6b42bfa-7b69-4698-9f22-166c82d992d1")
+		(property "Reference" "D26"
+			(at 314.96 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 314.96 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 314.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 314.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da88b9e7-7e54-4ac6-a7d1-60e83016b358")
+		)
+		(pin "2"
+			(uuid "44cca492-7f43-4c73-b48a-fd71d1a3327a")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 336.55 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f794d44f-bd47-4032-a612-085deef829ed")
+		(property "Reference" "J36"
+			(at 334.01 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_EXTRA_1"
+			(at 334.01 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 336.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 336.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d03a68e5-3ee9-4eb1-b08c-a851b10dcc1f")
+		)
+		(pin "1"
+			(uuid "93edfb8c-259a-4ab1-85fd-4ba47eb14116")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 346.71 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e06ab4a0-3c08-4970-bfc4-81c28f81e632")
+		(property "Reference" "D27"
+			(at 346.71 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 346.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 346.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 346.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59802c52-f83a-402a-86ff-beed2310d3ed")
+		)
+		(pin "2"
+			(uuid "7248a1cc-9023-4fd9-b3b3-a764875e43d3")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 368.3 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6a0d565-5392-4416-a90c-a0ec35c7713a")
+		(property "Reference" "J37"
+			(at 365.76 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_EXTRA_2"
+			(at 365.76 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 368.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 368.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "905f544d-6df2-4fef-9c44-08e6df306b0b")
+		)
+		(pin "1"
+			(uuid "a1bd1e66-e003-4179-bf44-8e626e24e994")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 378.46 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b315128c-e9a8-4938-b8fe-0db9073b1e29")
+		(property "Reference" "D28"
+			(at 378.46 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 378.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 378.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 378.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96f42068-3fbf-443c-9788-81cab770086c")
+		)
+		(pin "2"
+			(uuid "76868547-2067-4601-897e-76f392878e3e")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 273.05 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b298d34-8e43-4f26-80cc-2fcd9521d107")
+		(property "Reference" "J38"
+			(at 270.51 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_BUTTON_5"
+			(at 270.51 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 273.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c52af79a-d710-4ec5-b2b9-71de1f7e16ea")
+		)
+		(pin "1"
+			(uuid "f17e60dd-5d49-40d1-ba0f-d91c231fa373")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 283.21 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c16532e-8c23-4f71-b57f-baa7fa21cef3")
+		(property "Reference" "D29"
+			(at 283.21 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 283.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 283.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 283.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f106df05-ba49-4512-8fed-7575b62a73f6")
+		)
+		(pin "2"
+			(uuid "b98d3e8f-ca3f-4a27-bd84-173a8752ca9e")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 304.8 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc35533a-9b5b-47f2-8eb7-ec34ffbfdda8")
+		(property "Reference" "J39"
+			(at 302.26 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_BUTTON_6"
+			(at 302.26 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 304.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 304.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a2470c2-9d9f-401d-b02c-3fb500699905")
+		)
+		(pin "1"
+			(uuid "68977280-b8c1-41d7-a924-c3a94690c2e9")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 314.96 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0912a21-ea67-4503-849c-ed5ec68dacd9")
+		(property "Reference" "D30"
+			(at 314.96 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 314.96 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 314.96 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 314.96 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56d034d8-0c90-44b8-9e42-e80acd07d77b")
+		)
+		(pin "2"
+			(uuid "47c6e97a-59ad-4cc9-bf13-fba1dbe0411e")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 336.55 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a2f1ef-edd4-4ab6-88eb-21e6884fc5a8")
+		(property "Reference" "J40"
+			(at 334.01 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_BUTTON_7"
+			(at 334.01 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 336.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 336.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb9bb7be-e6a9-4471-a155-00014ac0cd90")
+		)
+		(pin "1"
+			(uuid "6b5e2773-29a7-4bda-a79a-c350ce9299d3")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 346.71 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c21d7161-0de2-423d-bfbd-9b1605494f21")
+		(property "Reference" "D31"
+			(at 346.71 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 346.71 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 346.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 346.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37efb9a5-a56d-4659-90bb-6cfee5422ca5")
+		)
+		(pin "2"
+			(uuid "b1e1755a-f02c-44d7-8b2c-78188c4a1af2")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 368.3 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d33986-47cf-48cd-8800-75e68544b6f1")
+		(property "Reference" "J41"
+			(at 365.76 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P2_BUTTON_8"
+			(at 365.76 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 368.3 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 368.3 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8edec437-4004-4ab1-acce-a52eadd51824")
+		)
+		(pin "1"
+			(uuid "7f7eda9a-19ca-42b2-bc38-6f54c60be048")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 378.46 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "872cb6d4-e5c9-4269-aa9f-d4a40dbc9f71")
+		(property "Reference" "D32"
+			(at 378.46 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 378.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
+			(at 378.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 378.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a3d463c-1338-4eba-892b-55025d534c90")
+		)
+		(pin "2"
+			(uuid "020d8d17-bf4f-4b57-8594-f7ef828b3e9b")
+		)
+		(instances
+			(project "pcb-arcade-controls"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 50.8) (xy 153.67 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed071b0-18f4-4004-b8ea-ee19794572d7")
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 158.75 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e167860e-9fb1-4d33-bb67-a0be67e4682e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.75 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 53.34) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9522c9ac-963e-47bb-b911-103682bfca91")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 151.13 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6291c63b-868e-4d5e-a92d-ef61bad1b7d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.13 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 50.8) (xy 185.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa1a333-20d2-4353-a1aa-e41a02614e40")
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 190.5 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82199f41-801b-441c-bdb5-8ba264064cf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 53.34) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be719fd-2ba0-4180-8439-7bb0e780b477")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 182.88 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c766c84f-fc81-4438-8281-174c40bac30a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 50.8) (xy 217.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9bba34-f40a-4d78-ac81-456424ab1b90")
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 222.25 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21eff1a5-25d2-460b-af82-a96a382e90dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.25 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 53.34) (xy 214.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970603d8-7c2e-49f5-9f92-38802008b1af")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 214.63 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "710fdbf0-6c83-43be-94db-2af74a55808c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.63 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd9a521-d13c-45c4-b3c1-7db8d2093389")
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 254.0 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faa47e45-d9a3-4918-af2c-a782fa8557e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.0 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 53.34) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a8921c-815b-448a-88b6-c0e4e763ec20")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 246.38 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "050bad8b-903d-4b77-a44e-c9c2e1ac6bb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.38 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 50.8) (xy 280.67 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc29075-58f0-4121-ad8d-2bf84b8a43c6")
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 285.75 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a41d04b-eaa9-4238-8ea1-dd672c05ba09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.75 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 53.34) (xy 278.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7b62fb-8e55-4df0-82fa-06838cdf6e71")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 278.13 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "049bf218-9cd6-4662-a75b-d73cdd4385de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.13 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 50.8) (xy 312.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d089828f-7d58-44bf-a5a5-8358a78d6e4e")
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 317.5 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a546edf1-9f2a-4623-b04e-31619646ccbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 53.34) (xy 309.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816f1eb8-e5b4-415c-b701-bdad11a1aca0")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 309.88 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e6d65ae-3311-4a79-b5a5-634664586cb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 319.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 50.8) (xy 344.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a2167a-8ff1-48cf-92ab-5b66fdf1918c")
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 349.25 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a89453b2-458b-44a1-8f6d-ef5b40baec04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.25 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 53.34) (xy 341.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e50275-ed89-4177-aeda-3e9c89625f53")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 341.63 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5509cce8-632e-48a0-bf04-45d94a905e75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.63 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 50.8) (xy 375.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e12226-150a-4e01-b94f-a959608d05fe")
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 381.0 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5270df90-172f-4663-8c76-4296af71e068")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.0 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 53.34) (xy 373.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65750249-a2b6-4c44-bc94-0e25bc87af04")
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 373.38 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04ee9593-4e58-413f-9c2d-9444500969d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.38 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234766ae-7eb6-4942-b6fb-7fadaf7f3b3a")
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 158.75 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38b97f5f-4f5d-4382-94d1-44d28543af0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.75 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6dc958-abaa-47b6-a060-8dd3e48a4995")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 151.13 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "282f3c21-f625-49d7-afad-5cd093af962c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.13 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a4c282-908f-40da-a1b8-e97ecc911fd7")
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 190.5 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02a33f76-566c-41e7-aba2-1f88ee15a76e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f115008-dc89-4b14-b62f-d9d063e31087")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 182.88 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd3109b5-e9ed-49af-8de9-1475ed93e13d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 71.12) (xy 217.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf55baaa-7805-41bc-b1ec-6ad38f193547")
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 222.25 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51d78d2d-4e02-4b79-a335-5a1221b6e08f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 73.66) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afeb1e4b-7544-41cd-99be-de84ece5f2ce")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 214.63 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb45f5c2-094e-4183-9ead-e6a75ffc44ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 71.12) (xy 248.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f4b781-bca9-464b-b1f1-dedd2c6382ef")
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 254.0 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa922288-0e07-4c28-89dd-87031716dd81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.0 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 73.66) (xy 246.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb96f133-fc67-4eb1-bc98-2b5845948253")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 246.38 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bc1bb87-3962-41e2-8916-2ee790ff85fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 71.12) (xy 280.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534353e9-0981-436b-b8e7-a3d58037684e")
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 285.75 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b61b0570-f1e6-4440-989e-5a02f49cdc0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.75 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 73.66) (xy 278.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656c8d87-3528-439c-9126-678c5dc26802")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 278.13 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8bdeb10-7d70-47e0-84d6-c45853bee942")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.13 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 71.12) (xy 312.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd339819-2cf0-42fd-be9a-f133c5cb7e12")
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 317.5 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a02d941f-d13a-4977-91fd-c6bf380ddfac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 73.66) (xy 309.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3c17ec-3af4-4edf-b601-520c0d69b3c5")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 309.88 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1f25455-a2c4-404d-8d7d-2861122a845f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 319.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 71.12) (xy 344.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c592f47e-8a18-48b3-8bf6-c2ba84df36c5")
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 349.25 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6d5f26b-1af5-4e3c-b7eb-f58a10f9797d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 73.66) (xy 341.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8149a8f-b861-4b9c-905e-764c2bcc24af")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 341.63 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2edbb13b-684e-4847-bc54-6768a0e5df4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 71.12) (xy 375.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd177980-37bb-4a9c-9f9d-a7d53ec4733e")
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 381.0 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4ce29f3-12c4-4450-86f2-08f1b4b18e3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.0 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 73.66) (xy 373.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbff21d-3d40-4b57-bba2-ccdb3c410644")
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 373.38 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b97770a-6905-4a26-9a1e-8a3cc2ba9e1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726dd591-2697-4883-ac66-cc632f388e62")
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 158.75 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd144910-c0a1-46a8-99fd-e21054aa4607")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 93.98) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e360d6ac-ef94-4e2a-afba-5265834fab61")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 151.13 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c9c12a5-703d-4819-abf2-e9826d625174")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d362e61a-f743-4c2d-8d36-879516ee723a")
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 190.5 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13676cd6-bf26-4e7c-af46-52da4ef87106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6c5ca8-74a8-4833-83d6-0bb18025dc0e")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 182.88 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a7175e0-c314-4c20-8533-85595de45ea1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 91.44) (xy 217.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf48547-f70e-400d-bbb6-bedf545cb272")
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 222.25 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3c1023a-57ef-4942-aa12-366cc18b4aa8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 214.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc234aa2-0ad3-4f8f-a3ec-54bc83d81263")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 214.63 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73bebd46-9c09-437f-bce0-fe842243a5f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 91.44) (xy 248.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adbd6a1-94c8-46ea-afa7-12464c38473a")
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 254.0 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "640aebe0-f1ee-4e5a-91d6-f3e763139bb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.0 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 93.98) (xy 246.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd26ca4-29c0-4914-8837-64d0bfa547fe")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 246.38 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f8eed8b-7352-45b7-86b2-e31e91309d88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 91.44) (xy 280.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d04917-25b2-4a99-bfba-fa7da573cf48")
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 285.75 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a719d2d-66ed-4c01-9e2d-e7ebb7b08bc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 93.98) (xy 278.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f798f9-7d5d-4ca8-8da9-b52f9a30d37f")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 278.13 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8588801c-c4dd-4c91-b5cf-981d5eae59d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 91.44) (xy 312.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86611507-6c6b-4bd9-880d-b693a053f41c")
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 317.5 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e157178-7f23-4cf0-a21c-f25bdc73f61d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 93.98) (xy 309.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4c133e-8ada-4bd8-af6f-0d6e5807a686")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 309.88 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b5726b4-971c-41ce-a181-7434f722ae8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 319.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 91.44) (xy 344.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd4f7bde-beb7-4ba6-abae-f722c27d7f31")
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 349.25 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87634269-bca2-4d2a-be19-ab76f66e60d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 93.98) (xy 341.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874c5a01-dcd5-4769-80fb-4f36b4ac4ebb")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 341.63 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e10057d7-da45-4092-b997-b9dc09d7f71a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 91.44) (xy 375.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c291a4ec-dfcc-4a1d-b8cd-a749f018700c")
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 381.0 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc785b10-2f43-47dd-99f3-eb6f78e07ca9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.0 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 93.98) (xy 373.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3080f99a-2b96-4c1b-ab31-20a2adbe3636")
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 373.38 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb956b6c-34ab-4b1c-8cf8-859f6059e1ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff6deb5-937e-45c3-88bf-067c1b198bec")
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 158.75 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f389418c-6117-4b9e-92fa-41deaee36394")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.75 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb05a01e-c339-4fd7-923e-8238ec139dd8")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 151.13 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5ac6880-2a77-41a6-97bb-33c09a829d59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 185.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61044037-c2f8-414d-b6bd-80260f809f74")
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 190.5 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d8a05a0-9a78-419e-bb39-9c2fa19b80a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 114.3) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b30202-f3c4-4501-ba12-a2edca5bc445")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 182.88 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c43583c4-3338-49f4-b88f-0ecad363b6fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.88 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 111.76) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0397c2-8a4e-4352-bc85-9b58ae8e99f5")
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 222.25 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f5ab278-b279-4810-b31b-1460cf7f6a92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.25 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 214.63 114.3) (xy 214.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d5db2d-1cbf-4f86-9be4-7d01d51fa8db")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 214.63 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc229193-46b9-4933-a4db-dddb3d40d65d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b579a93c-6674-4d50-9699-2a9e9e48ca77")
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 254.0 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eec2ccc0-13e3-41a6-a963-f471b03588ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.0 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 246.38 114.3) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9341c0-1c7a-43c7-99a5-d75f4c5d38cd")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 246.38 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd2c06c7-4cc4-42af-8bd1-20952112c5d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.38 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 111.76) (xy 280.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9a2ff6-5f0e-4cb6-9e45-16b623776276")
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 285.75 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72cc175d-a684-4f8e-a59a-9461af7fec3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.75 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 278.13 114.3) (xy 278.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7514eba6-d500-4a42-9606-84bda09da78a")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 278.13 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a01eacb-6523-45b0-ba3f-e1b25374399e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.13 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 111.76) (xy 312.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f6bf62-fd95-49b5-9cc8-c08a09acca1d")
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 317.5 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc238311-f59e-46a4-a63e-150aa25f79f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 309.88 114.3) (xy 309.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b694953-3e1d-419d-a64e-e18701fed0db")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 309.88 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6bcc4de-fff3-46f7-bd62-a0567e01ed63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 319.88 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 111.76) (xy 344.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0fe3d1-0e82-4393-88c8-d08db36d4f93")
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 349.25 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d214cb0a-b59d-4b63-93d9-4a1de00ca4a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.25 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 341.63 114.3) (xy 341.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754a6e15-497c-4bf6-b361-f17d9405c08e")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 341.63 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56175d01-523b-46da-b5e4-1857750de557")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 111.76) (xy 375.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cc077e-b5d4-4bdd-822a-8c5937f600b2")
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 381.0 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "512a4b0f-d707-4a43-9c02-378661a0b7a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.0 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 114.3) (xy 373.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67a556f-02d0-4546-b7ab-00212fad1b21")
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 373.38 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a09a9dea-e47f-4f5e-838a-859b5a99d4af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.38 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 72.39 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7794ccd2-414b-41d2-8689-8e8cdfaeaa45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.39 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 72.39 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bbc6f76-ab23-4eed-8379-4e747b1fd13d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.39 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 72.39 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "189f98bb-6760-4453-bdf5-260b4e7c794c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.39 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 72.39 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6eaa2d60-6e08-4423-ba29-e29604babe6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.39 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 39.37 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78f431f4-060e-44b3-945f-218f69ece4c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 39.37 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc271b31-b95a-48a2-856e-f6faee397150")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 39.37 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb79b3a2-eb3f-497b-b356-d3cd6db88b17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 39.37 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a56bc12-2fd2-43ac-8054-1863aa4317b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape output)
+		(at 39.37 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af0975f2-7313-4cc3-8562-a8b5edf125cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape output)
+		(at 39.37 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04c90294-8042-46e2-b05e-7ac4247e15bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape output)
+		(at 39.37 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f682e116-2717-459f-9aa4-84c139ef54eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape output)
+		(at 39.37 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba85e921-10c1-41af-a87c-9a4472ad3204")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)

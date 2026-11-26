@@ -1,2 +1,5 @@
 pcb-arcade-controls/~pcb-arcade-controls.kicad_pro.lck
 *.lck
+backups/
+*.bak
+
