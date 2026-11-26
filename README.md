@@ -77,7 +77,13 @@ Wij gaan een matrix gebruiken in ons prinplaat ontwerp, aangezien dit super hand
 
 We zijn begonnen als een team met het bedenken van een strak plan om dit project zo goed en het soepelst mogelijk kan laten verlopen. We zijn eerst begonnen met de verdeling van de taken. In de PCB ontwerp periode zijn de volgende taken verdeelt. Fynn, Nathan en Kevin hebben de taken gekregen van het PCB ontwerp te creeren en dan ook gelijk in Kicad te verwerken. Daan en Bram hebben de taak gekregen om te kijken wat de beste opties zijn voor het gebruik van de pins. Hiermee word bedoeld van welke pins op de processor gebruikt worden voor data zodat het knoppen en joysticks goed gaan comminuceren met de processor. 
 
-### Sprint 0 [↗️](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/attachments/sprints/sprint-0)
+## Sprint 0 [↗️](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/attachments/sprints/sprint-0)
+
+### Doelen
+
+...
+
+### Aanpak
 We hebben als eerst met het gehele team gekeken naar hoe het programma Kicad in elkaar zit en hoe we dit kunnen gaan gebruiken om de PCB uiteindelijk te kunnen ontwerpen. Er is ook een vergadering plaatsgevonden met het team waarbij we alles wat we hebben bij elkaar hebben gelegd om op die manier te meten waar we in het process staan. Wij hebben hiervoor ook ene duidelijke [planning](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/README.md#planning) gemaakt voor wanneer welke taak afgerond moet zijn zodat we goed op schema blijven liggen. 
 
 Er is een design ontworpen hoe het schema er op dit moment uit ziet ([Bekijk](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-0/schema.png)). Hier zijn de PCB ontwerpers bezig geweest met het bouwen van de basis, dus er is op het schema te zien dat de benodigde connectors, processor, bootloaderknop en usb c port zijn toegevoegd. Later in het process/andere spints zullen we waarschijnlijk gebruik maken van een matrix waardoor we nog meer connectors kunnen aansluiten en er daardoor meer controls zijn. 
@@ -86,7 +92,14 @@ Het schema is ook al verwerkt in een visuele printplaat ontwerp ([Bekijk](https:
 
 We hebben een presentatie gemaakt die deze sprint samenvat in 5 dia's ([Bekijk](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-0/Presentatie%20sprint0.pptx)). Dit hebben we gepresenteerd en hebben we ook [feedback](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-0/Resultaatfeedback%20presentative.txt) op gekregen en verwerkt.
 
-### Sprint 1
+## Sprint 1
+
+### Doelen
+Voor sprint 1 willen we ervoor zorgen dat we meer te weten komen hoe we moeten designen in kicad en hoe we alles kunnen toevoegen, zoals connectoren zoeken, processor importeren uit een bestaand project van andere. Ook moet er een begin gemaakt worden in kicad. De basis staat. Onder de basis valt uiteraard het ontwerpen van de pcb. 
+
+De printplaat moet de volgende eisen hebben gehaald aan het einde van de week. De eerste eis is dat er een pcb moet staan die op maat is van de uiteindelijke printplaat. Hierdoor kunnen we zien hoeveel ruimte we hebben om te werken met de componenten die later worden toevoegt. De volgende eis is dat we de processor moeten vinden en die ook toevoegen in het project en uiteindelijk ook op die printplaat laat zetten. Hierbij hoort ook de bootknop, deze is cruciaal omdat door deze knop kunnen we firmware gaan zetten op de processor en het ook werkend kunnen laten maken. Ook moet de USB C port aanwezig zijn in het schematic en ook al op de printplaat fysiek zit. 
+
+### Aanpak
 
 We zijn begonnen met het onderzoeken van hoe we samen in 1 KiCad bestand kunnen werken zonder dat het elkaar constant over overschrijven. Dit hebben we onderzocht en kwamen op een stappenlijst uit. We hebben het volgende gedaan om dit probleem op te lossen. We hebben in KiCad de voorkeuren git versie beheer ingeschakeld. Hierdoor overschrijven de bestanden niet meer waardoor we nu met meerdere personen aan 1 bestand kunnen werken.
 
