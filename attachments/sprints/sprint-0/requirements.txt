@@ -4,7 +4,7 @@
 
 -   pa0 tot pa15 ADC pins (dubbelchecken) qmk adc link checken
 
-- page 35 datasheet (lscs.com/datasheet/C91720.pdf)
+- page 35 datasheet (https://www.lcsc.com/datasheet/C81720.pdf)
 
 - form factor is LQFP48 
 
