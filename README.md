@@ -83,8 +83,8 @@ Hieronder staan de pins die we gebruiken in het project. Hier hebben Daan en Fyn
 ### USB & Debugging
 | Pin | Functie | MCU Pin |
 | :--- | :--- | :--- |
-| **32** | MCU_D- | `PA11` |
-| **33** | MCU_D+ | `PA12` |
+| **32** | USB_D- | `PA11` |
+| **33** | USB_D+ | `PA12` |
 | **34** | A13 | `PA13` |
 | **37** | A14 | `PA14` |
 
@@ -155,3 +155,5 @@ Kevin heeft de processor toegevoegd aan het [pcb design](https://github.com/GitC
 Fynn heeft een nieuw [schematic](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-1/schematic.png) gemaakt voor de connectors. Nu is er te vinden welke connectors bij welke column en row horen. hierdoor is het makkelijk te achterhalen welke connector waar heen moet. Ook zijn er nieuwe labels toegevoegd zoals player-1-button-1 etc etc. Ook is er toegevoegd in de [schematic](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-1/schematic.png) welke diodes Fynn gebruikt voor de matrix. Op de prinplaat zijn ondertussen nieuwe [traces](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-1/pcb-3.png) gelegd dat is op de fotos te zien van het 3d model.
 
 Nathan heeft gewerkt aan het de gaten die in de printplaat komen. Hij is ervoor gaan zorgen dat hij bestel ready word. Hierdoor kunnen we uiteindelijk zelf de componenten gaan solderen aangezien het onnodig is om elke component erop te laten solderen door de fabriek. Alleen de capacitors en de MCU (processor) is blijven zitten aangezien deze componenten te klein zijn om die met de hand te solderen ([Bekijk](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-1/pcb-holes.png)).
+
+Kevin heeft de connecties van PA11 en PA12 die eerst MCU_D- en MCU_D+ waren nu veranderd naar USB_D- en USB_D+. Dit omdat dit overeenkomt met de USB C connector die we gebruiken op de printplaat. Dit is ook aangepast op het schematic [(Bekijk)](https://github.com/GitCommitt/pcb-arcade-controls/blob/main/attachments/sprints/sprint-1/schematic-usb_update.png). De traces van J3 naar U4 zijn beter geroute waardoor het nu er netter eruit ziet.
