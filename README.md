@@ -41,7 +41,7 @@
 
 Bij het onderzoek zijn we begonnen met de PDF lezen en belangerijke dingen opslaan. We hebben aan het begin van dit process een [video](https://www.youtube.com/watch?v=8WXpGTIbxlQ) gekeken hoe we het software tool KiCad moeten gebruiken in combinatie met de STM32F072CBT6 Microprocessor.
 
-###Keuze pins
+### Keuze pins
 
 Daan en Bram zijn gaan onderzoeken welke pins er gebruikt kunnen worden op de processor en kijken hoe we uitkkomen met de aantal connecties die we hebben door de connectors. Samen zijn we er uit gekomen dat het handig is om een matrix te gebruiken voor de connector connections naar de processor. We waren in de [datasheet](https://www.lcsc.com/datasheet/C81720.pdf) gedoken. Hier ijn we op pagina 35 onder het kopje (Pinouts and pin descriptions) onder wij gebruiken de pin number (LQFP48). Heir hebben we de pins uitgezocht welke we kunnen gebruiken.
 
@@ -50,19 +50,53 @@ Daan en Bram zijn gaan onderzoeken welke pins er gebruikt kunnen worden op de pr
 In Kicad zijn we begonnen bij het maken van een nieuwe file met de template [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoModules/STM32F072CBT6) van de repo [Scottokeebs](https://github.com/joe-scotto/scottokeebs). Daarna hebben we voor het maken van een 3d model de [library](https://github.com/GitCommitt/pcb-arcade-controls/tree/main/library/scottokeebs-main/Extras/ScottoKicad/symbols) toegevoed aan onze preferences. 14
 
 ## Pin Layout
-14 = Col 0 | PA4
-15 = Col 1 | PA5
-16 = Col 2 | PA6
-17 = Col 3 | PA7
-18 = Col 4 | PB0
-19 = Col 5 | PB1
-20 = Col 6 | PB2
-21 = Col 7 | PB10
 
-22 = Row 0 | PB11
+Hieronder staan de pins die we gebruiken in het project. Hier hebben Daan en Fynn samen onderzocht.
 
+### Matrix, Kolommen & Rijen
+| Pin | Functie | MCU Pin |
+| :--- | :--- | :--- |
+| **14** | Col 0 | `PA4` |
+| **15** | Col 1 | `PA5` |
+| **16** | Col 2 | `PA6` |
+| **17** | Col 3 | `PA7` |
+| **18** | Col 4 | `PB0` |
+| **19** | Col 5 | `PB1` |
+| **20** | Col 6 | `PB2` |
+| **21** | Col 7 | `PB10` |
+| **22** | Row 0 | `PB11` |
+| **25** | Row 1 | `PB12` |
+| **26** | Row 2 | `PB13` |
+| **27** | Row 3 | `PB14` |
 
+### Power & GND
+| Pin | Functie | MCU Pin |
+| :--- | :--- | :--- |
+| **1** | VBAT | `VBAT` |
+| **9** | VDDA | `VDDA` |
+| **24** | VDD1 | `VDD` |
+| **36** | VDDIO2 | `VDDIO2` |
+| **48** | VDD2 | `VDD` |
+| **8** | GND | `VSSA` |
+| **23** | GND | `VSS` |
 
+### USB & Debugging
+| Pin | Functie | MCU Pin |
+| :--- | :--- | :--- |
+| **32** | MCU_D- | `PA11` |
+| **33** | MCU_D+ | `PA12` |
+| **34** | A13 | `PA13` |
+| **37** | A14 | `PA14` |
+
+### Systeem & Overige I/O
+| Pin | Functie | MCU Pin |
+| :--- | :--- | :--- |
+| **2** | C13 | `PC13` |
+| **3** | C14 | `PC14` |
+| **4** | C15 | `PC15` |
+| **7** | NRST | `NRST` |
+| **28** | B15 | `PB15` |
+| **44** | BOOT0 | `BOOT0` |
 
 # Connector type
 
