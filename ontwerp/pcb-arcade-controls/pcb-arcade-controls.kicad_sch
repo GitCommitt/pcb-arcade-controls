@@ -6464,7 +6464,7 @@
 		)
 		(uuid "fdbff21d-3d40-4b57-bba2-ccdb3c410644")
 	)
-	(label "MCU_D-"
+	(label "USB_D-"
 		(at 81.28 200.66 180)
 		(effects
 			(font
@@ -6504,7 +6504,7 @@
 		)
 		(uuid "46bc4d38-3ef2-4d1e-8b4f-d02b4d031765")
 	)
-	(label "MCU_D+"
+	(label "USB_D+"
 		(at 81.28 203.2 180)
 		(effects
 			(font
